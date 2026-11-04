@@ -1,0 +1,10 @@
+# Core TaskSegment / U-Net / U-Net++ / Swin-Unet / TransUNet / CLIPSeg environment (TS)
+-r requirements.txt
+-r requirements-clipseg.txt
+-r requirements-lvit.txt
+
+# Result database/statistics support
+numpy>=1.24
+scipy>=1.10
+
+# SAM-Med2D uses the separate TS_SAMMED2D environment and requirements-sammed2d.txt.

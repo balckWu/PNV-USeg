@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "language": "en",
+  "note": "Task-level priors based on the existing six-domain target definitions. Background sentences are candidate confounders, not per-pixel tissue labels. No query-specific diagnosis or test outcomes were used. Dataset names are excluded from the prose.",
+  "domains": {
+    "thyroid": {
+      "positive": ["A focal thyroid nodule within the thyroid gland.", "The annotated intrathyroidal lesion, including its internal tissue components.", "The full lesion region enclosed by the thyroid nodule contour.", "A thyroid nodule with variable internal echogenicity and patient-specific morphology."],
+      "negative": ["Normal thyroid parenchyma outside the annotated nodule.", "Blood vessel lumens and vessel walls outside the thyroid lesion.", "Cervical skeletal muscle surrounding the thyroid gland.", "The tracheal wall and air interface adjacent to the thyroid gland."],
+      "summary": "Segment the complete annotated thyroid nodule within the gland. Follow the patient-specific lesion contour and retain its enclosed components; surrounding normal thyroid tissue and adjacent neck structures are outside the target."
+    },
+    "TN3K": {
+      "positive": ["A focal thyroid nodule within the thyroid gland.", "The annotated intrathyroidal lesion, including its internal tissue components.", "The full lesion region enclosed by the thyroid nodule contour.", "A thyroid nodule with variable internal echogenicity and patient-specific morphology."],
+      "negative": ["Normal thyroid parenchyma outside the annotated nodule.", "Blood vessel lumens and vessel walls outside the thyroid lesion.", "Cervical skeletal muscle surrounding the thyroid gland.", "The tracheal wall and air interface adjacent to the thyroid gland."],
+      "summary": "Segment the complete annotated thyroid nodule within the gland. Follow the patient-specific lesion contour and retain its enclosed components; surrounding normal thyroid tissue and adjacent neck structures are outside the target."
+    },
+    "BUSI_WHU": {
+      "positive": ["The focal breast lesion selected by the annotation.", "The complete breast mass region enclosed by its lesion contour.", "Internal tissue components belonging to the annotated breast lesion.", "A breast lesion with patient-specific shape and variable internal echogenicity."],
+      "negative": ["Normal fibroglandular breast tissue outside the annotated lesion.", "Subcutaneous adipose tissue surrounding the breast lesion.", "The superficial skin layer over the breast.", "Pectoral muscle and chest-wall tissue outside the breast mass."],
+      "summary": "Segment the complete annotated breast lesion. Preserve the lesion extent and enclosed components according to its patient-specific contour; surrounding glandular tissue, fat, skin and chest-wall structures are outside the target."
+    },
+    "BUS-BRA": {
+      "positive": ["The focal breast lesion selected by the annotation.", "The complete breast mass region enclosed by its lesion contour.", "Internal tissue components belonging to the annotated breast lesion.", "A breast lesion with patient-specific shape and variable internal echogenicity."],
+      "negative": ["Normal fibroglandular breast tissue outside the annotated lesion.", "Subcutaneous adipose tissue surrounding the breast lesion.", "The superficial skin layer over the breast.", "Pectoral muscle and chest-wall tissue outside the breast mass."],
+      "summary": "Segment the complete annotated breast lesion. Preserve the lesion extent and enclosed components according to its patient-specific contour; surrounding glandular tissue, fat, skin and chest-wall structures are outside the target."
+    },
+    "OTU": {
+      "positive": ["The ovarian tumor selected by the lesion annotation.", "The full adnexal tumor region enclosed by the annotated contour.", "Solid tissue and cystic compartments where included inside the ovarian tumor annotation.", "An ovarian tumor with patient-specific morphology and heterogeneous internal composition."],
+      "negative": ["Normal ovarian tissue outside the annotated tumor.", "Uterine tissue adjacent to the adnexal lesion.", "The urinary bladder lumen outside the tumor contour.", "Bowel and pelvic soft tissue outside the annotated ovarian lesion."],
+      "summary": "Segment the complete annotated ovarian tumor, following its outer lesion contour and retaining enclosed components as defined by the annotation. Adjacent pelvic organs and extra-lesional tissue are outside the target."
+    },
+    "prostate": {
+      "positive": ["The whole prostate gland enclosed by the organ annotation.", "Prostatic tissue throughout the annotated gland region.", "Internal prostate zones retained within the whole-gland contour.", "The complete prostate cross-section bounded by its patient-specific outer contour."],
+      "negative": ["The urinary bladder lumen outside the prostate gland.", "The rectal wall adjacent to the prostate.", "Pelvic skeletal muscle outside the prostate capsule.", "Periprostatic soft tissue outside the annotated gland contour."],
+      "summary": "Segment the complete annotated prostate gland rather than an individual lesion or internal zone. Retain the gland tissue inside the outer organ contour; adjacent bladder, rectal wall and pelvic soft tissue are outside the target."
+    }
+  }
+}

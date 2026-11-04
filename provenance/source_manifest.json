@@ -1,0 +1,2599 @@
+{
+  "collected_at": "2026-10-29T15:18:16.413491+08:00",
+  "mode": "source-only",
+  "weights_included": false,
+  "datasets_included": false,
+  "results_included": false,
+  "source_groups": [
+    {
+      "target": "main_f/seed42",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025",
+      "exists": true,
+      "files": 56,
+      "bytes": 381479
+    },
+    {
+      "target": "baselines/original_tsv3",
+      "source": "/tank/wk/TS/TSV3",
+      "exists": true,
+      "files": 182,
+      "bytes": 1278615
+    },
+    {
+      "target": "ablations/f_remove_dual",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source",
+      "exists": true,
+      "files": 63,
+      "bytes": 423923
+    },
+    {
+      "target": "ablations/f_remove_summary",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source",
+      "exists": true,
+      "files": 63,
+      "bytes": 423205
+    },
+    {
+      "target": "evaluation/main_six_variants",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/test_evaluation_20261027",
+      "exists": true,
+      "files": 1,
+      "bytes": 15127
+    },
+    {
+      "target": "evaluation/f_and_v2",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028",
+      "exists": true,
+      "files": 8,
+      "bytes": 32928
+    },
+    {
+      "target": "experiments/unseen_organs/camus",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027",
+      "exists": true,
+      "files": 8,
+      "bytes": 63643
+    },
+    {
+      "target": "experiments/unseen_organs/lus7seg",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027",
+      "exists": true,
+      "files": 14,
+      "bytes": 44499
+    },
+    {
+      "target": "experiments/unseen_organs/lus7seg/liver",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/liver",
+      "exists": true,
+      "files": 4,
+      "bytes": 24590
+    },
+    {
+      "target": "experiments/unseen_organs/lus7seg/gallbladder",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/gallbladder",
+      "exists": true,
+      "files": 4,
+      "bytes": 24739
+    },
+    {
+      "target": "experiments/unseen_organs/all_baselines",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027",
+      "exists": true,
+      "files": 19,
+      "bytes": 30142
+    },
+    {
+      "target": "experiments/unseen_organs/all_baselines/heart",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/heart",
+      "exists": true,
+      "files": 4,
+      "bytes": 32182
+    },
+    {
+      "target": "experiments/unseen_organs/all_baselines/liver",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/liver",
+      "exists": true,
+      "files": 4,
+      "bytes": 32330
+    },
+    {
+      "target": "experiments/unseen_organs/all_baselines/gallbladder",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/gallbladder",
+      "exists": true,
+      "files": 4,
+      "bytes": 32354
+    }
+  ],
+  "files": [
+    {
+      "path": "ablations/f_remove_dual/bundle_manifest.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/bundle_manifest.json",
+      "sha256": "5c94af95225f02f7649bf7f9c2105f87dce192bd24988feb8ea9a562844c3130",
+      "bytes": 6772
+    },
+    {
+      "path": "ablations/f_remove_dual/cache_v2/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827",
+      "bytes": 79
+    },
+    {
+      "path": "ablations/f_remove_dual/cache_v2/engine.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71",
+      "bytes": 3265
+    },
+    {
+      "path": "ablations/f_remove_dual/cache_v2/input_cache.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223",
+      "bytes": 3918
+    },
+    {
+      "path": "ablations/f_remove_dual/cache_v2/manifest.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516",
+      "bytes": 740
+    },
+    {
+      "path": "ablations/f_remove_dual/cache_v2/train.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98",
+      "bytes": 9521
+    },
+    {
+      "path": "ablations/f_remove_dual/cache_v2/validate_full.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e",
+      "bytes": 1910
+    },
+    {
+      "path": "ablations/f_remove_dual/cache_v2/verify.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda",
+      "bytes": 13888
+    },
+    {
+      "path": "ablations/f_remove_dual/campaign/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597",
+      "bytes": 59
+    },
+    {
+      "path": "ablations/f_remove_dual/campaign/encode_text.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100",
+      "bytes": 3273
+    },
+    {
+      "path": "ablations/f_remove_dual/campaign/launch.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84",
+      "bytes": 5207
+    },
+    {
+      "path": "ablations/f_remove_dual/campaign/model.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/campaign/model.py",
+      "sha256": "5fb0959fc0fe511ca984d4a5859d6dcc88735ef66c22f92c00765f2612846158",
+      "bytes": 6015
+    },
+    {
+      "path": "ablations/f_remove_dual/campaign/preflight.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962",
+      "bytes": 4536
+    },
+    {
+      "path": "ablations/f_remove_dual/campaign/prompts.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/campaign/prompts.json",
+      "sha256": "e9ee03cb671be9529f75a40d991c8e6ff0f836e447e58726c55a234c01ca1583",
+      "bytes": 5348
+    },
+    {
+      "path": "ablations/f_remove_dual/campaign/protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201",
+      "bytes": 1404
+    },
+    {
+      "path": "ablations/f_remove_dual/campaign/test_cpu.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26",
+      "bytes": 4177
+    },
+    {
+      "path": "ablations/f_remove_dual/campaign/train.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/campaign/train.py",
+      "sha256": "6df0d73929ce3dd1b89ed6d7e01a5c0c9cc6d3f5738d52d640ed399c981ea0a1",
+      "bytes": 14804
+    },
+    {
+      "path": "ablations/f_remove_dual/cpu_audit.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/cpu_audit.py",
+      "sha256": "a2bb9fc0ac19f1189339e8939358b138fd5644780dcc912dd924b3d7da9c35d4",
+      "bytes": 2502
+    },
+    {
+      "path": "ablations/f_remove_dual/fresh_train.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/fresh_train.py",
+      "sha256": "fe664deddd79fa89270ca53c8392b590e72b5d286a9825f99c0f93f2b9341bdf",
+      "bytes": 11500
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a",
+      "bytes": 126
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/cli.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c",
+      "bytes": 9819
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/config.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc",
+      "bytes": 5348
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/dashboard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982",
+      "bytes": 12728
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/gpu.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30",
+      "bytes": 2056
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/progress.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b",
+      "bytes": 1225
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/provenance.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902",
+      "bytes": 3300
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/registry.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b",
+      "bytes": 16983
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/results.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463",
+      "bytes": 18265
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/runner.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc",
+      "bytes": 25650
+    },
+    {
+      "path": "ablations/f_remove_dual/paperlab/statistics.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8",
+      "bytes": 5301
+    },
+    {
+      "path": "ablations/f_remove_dual/parent_bundle_manifest.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/parent_bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba",
+      "bytes": 5099
+    },
+    {
+      "path": "ablations/f_remove_dual/reference_model.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/reference_model.py",
+      "sha256": "6ed7c0e0b3c13ec24780bf701a8dcab6b96cae0f4259aaa92ed46fb1aeefc818",
+      "bytes": 7704
+    },
+    {
+      "path": "ablations/f_remove_dual/structural_init.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/structural_init.py",
+      "sha256": "8abcd35abd816fef0101b6d94873b6403f1abf28f2b9d107995889c626e7a1aa",
+      "bytes": 1845
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593",
+      "bytes": 88
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/checkpoint.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9",
+      "bytes": 4108
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/configs.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f",
+      "bytes": 4207
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/data/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/data/__init__.py",
+      "sha256": "11d4778ee36af2a9ec48f1dbf68d20516836bf2bd03fe8f85b97b0411bed6756",
+      "bytes": 244
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/data/datasets.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/data/datasets.py",
+      "sha256": "06a6e8a4ea3a5a6cfc8e819daf0e20812d016d1ca469dceed416aa21d38c08dc",
+      "bytes": 15353
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/inference.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5",
+      "bytes": 13560
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c",
+      "bytes": 133
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/decoder.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5",
+      "bytes": 12875
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/dense_guidance.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8",
+      "bytes": 4721
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/encoder.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623",
+      "bytes": 2381
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/layers.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9",
+      "bytes": 1781
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/lvit_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51",
+      "bytes": 5588
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/sammed2d_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91",
+      "bytes": 12734
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/segmentation_model.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260",
+      "bytes": 17288
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/swinunet_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7",
+      "bytes": 7974
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/task_encoder.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979",
+      "bytes": 17372
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/models/transunet_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3",
+      "bytes": 6523
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/text/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111",
+      "bytes": 101
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/text/bank.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1",
+      "bytes": 4337
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/training/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2",
+      "bytes": 392
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/training/augmentations.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18",
+      "bytes": 6936
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/training/evaluation.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb",
+      "bytes": 11332
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/training/losses.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94",
+      "bytes": 4608
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/training/memory.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa",
+      "bytes": 3401
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/training/metrics.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d",
+      "bytes": 4488
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/training/prototypes.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946",
+      "bytes": 2239
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/training/trainer.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa",
+      "bytes": 19748
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/visualization/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047",
+      "bytes": 187
+    },
+    {
+      "path": "ablations/f_remove_dual/tasksegment/visualization/export_visual_token_states.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688",
+      "bytes": 13290
+    },
+    {
+      "path": "ablations/f_remove_dual/train_ablation.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/source/train_ablation.py",
+      "sha256": "613a425e0bb15d09792979cd01c36a919697853ea501b50e6cfee747fd8a2038",
+      "bytes": 11567
+    },
+    {
+      "path": "ablations/f_remove_summary/bundle_manifest.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/bundle_manifest.json",
+      "sha256": "368189223797f523888ddb1988b1141fed7059d323106aca69891d4bc44cc50e",
+      "bytes": 6775
+    },
+    {
+      "path": "ablations/f_remove_summary/cache_v2/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827",
+      "bytes": 79
+    },
+    {
+      "path": "ablations/f_remove_summary/cache_v2/engine.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71",
+      "bytes": 3265
+    },
+    {
+      "path": "ablations/f_remove_summary/cache_v2/input_cache.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223",
+      "bytes": 3918
+    },
+    {
+      "path": "ablations/f_remove_summary/cache_v2/manifest.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516",
+      "bytes": 740
+    },
+    {
+      "path": "ablations/f_remove_summary/cache_v2/train.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98",
+      "bytes": 9521
+    },
+    {
+      "path": "ablations/f_remove_summary/cache_v2/validate_full.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e",
+      "bytes": 1910
+    },
+    {
+      "path": "ablations/f_remove_summary/cache_v2/verify.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda",
+      "bytes": 13888
+    },
+    {
+      "path": "ablations/f_remove_summary/campaign/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597",
+      "bytes": 59
+    },
+    {
+      "path": "ablations/f_remove_summary/campaign/encode_text.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100",
+      "bytes": 3273
+    },
+    {
+      "path": "ablations/f_remove_summary/campaign/launch.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84",
+      "bytes": 5207
+    },
+    {
+      "path": "ablations/f_remove_summary/campaign/model.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/campaign/model.py",
+      "sha256": "2509d74a060cbe48120ff4babc3976e905cf051738e4a0360dd2925a83d8b30f",
+      "bytes": 5230
+    },
+    {
+      "path": "ablations/f_remove_summary/campaign/preflight.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962",
+      "bytes": 4536
+    },
+    {
+      "path": "ablations/f_remove_summary/campaign/prompts.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/campaign/prompts.json",
+      "sha256": "e9ee03cb671be9529f75a40d991c8e6ff0f836e447e58726c55a234c01ca1583",
+      "bytes": 5348
+    },
+    {
+      "path": "ablations/f_remove_summary/campaign/protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201",
+      "bytes": 1404
+    },
+    {
+      "path": "ablations/f_remove_summary/campaign/test_cpu.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26",
+      "bytes": 4177
+    },
+    {
+      "path": "ablations/f_remove_summary/campaign/train.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/campaign/train.py",
+      "sha256": "6b2486046488c93f3bbe2c7ba499d944f2fa7eaf322a38680a797d19d27d46e9",
+      "bytes": 14865
+    },
+    {
+      "path": "ablations/f_remove_summary/cpu_audit.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/cpu_audit.py",
+      "sha256": "a2bb9fc0ac19f1189339e8939358b138fd5644780dcc912dd924b3d7da9c35d4",
+      "bytes": 2502
+    },
+    {
+      "path": "ablations/f_remove_summary/fresh_train.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/fresh_train.py",
+      "sha256": "fe664deddd79fa89270ca53c8392b590e72b5d286a9825f99c0f93f2b9341bdf",
+      "bytes": 11500
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a",
+      "bytes": 126
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/cli.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c",
+      "bytes": 9819
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/config.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc",
+      "bytes": 5348
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/dashboard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982",
+      "bytes": 12728
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/gpu.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30",
+      "bytes": 2056
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/progress.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b",
+      "bytes": 1225
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/provenance.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902",
+      "bytes": 3300
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/registry.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b",
+      "bytes": 16983
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/results.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463",
+      "bytes": 18265
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/runner.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc",
+      "bytes": 25650
+    },
+    {
+      "path": "ablations/f_remove_summary/paperlab/statistics.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8",
+      "bytes": 5301
+    },
+    {
+      "path": "ablations/f_remove_summary/parent_bundle_manifest.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/parent_bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba",
+      "bytes": 5099
+    },
+    {
+      "path": "ablations/f_remove_summary/reference_model.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/reference_model.py",
+      "sha256": "6ed7c0e0b3c13ec24780bf701a8dcab6b96cae0f4259aaa92ed46fb1aeefc818",
+      "bytes": 7704
+    },
+    {
+      "path": "ablations/f_remove_summary/structural_init.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/structural_init.py",
+      "sha256": "8abcd35abd816fef0101b6d94873b6403f1abf28f2b9d107995889c626e7a1aa",
+      "bytes": 1845
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593",
+      "bytes": 88
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/checkpoint.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9",
+      "bytes": 4108
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/configs.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f",
+      "bytes": 4207
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/data/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/data/__init__.py",
+      "sha256": "11d4778ee36af2a9ec48f1dbf68d20516836bf2bd03fe8f85b97b0411bed6756",
+      "bytes": 244
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/data/datasets.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/data/datasets.py",
+      "sha256": "06a6e8a4ea3a5a6cfc8e819daf0e20812d016d1ca469dceed416aa21d38c08dc",
+      "bytes": 15353
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/inference.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5",
+      "bytes": 13560
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c",
+      "bytes": 133
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/decoder.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5",
+      "bytes": 12875
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/dense_guidance.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8",
+      "bytes": 4721
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/encoder.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623",
+      "bytes": 2381
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/layers.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9",
+      "bytes": 1781
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/lvit_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51",
+      "bytes": 5588
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/sammed2d_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91",
+      "bytes": 12734
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/segmentation_model.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260",
+      "bytes": 17288
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/swinunet_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7",
+      "bytes": 7974
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/task_encoder.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979",
+      "bytes": 17372
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/models/transunet_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3",
+      "bytes": 6523
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/text/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111",
+      "bytes": 101
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/text/bank.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1",
+      "bytes": 4337
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/training/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2",
+      "bytes": 392
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/training/augmentations.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18",
+      "bytes": 6936
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/training/evaluation.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb",
+      "bytes": 11332
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/training/losses.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94",
+      "bytes": 4608
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/training/memory.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa",
+      "bytes": 3401
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/training/metrics.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d",
+      "bytes": 4488
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/training/prototypes.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946",
+      "bytes": 2239
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/training/trainer.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa",
+      "bytes": 19748
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/visualization/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047",
+      "bytes": 187
+    },
+    {
+      "path": "ablations/f_remove_summary/tasksegment/visualization/export_visual_token_states.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688",
+      "bytes": 13290
+    },
+    {
+      "path": "ablations/f_remove_summary/train_ablation.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/source/train_ablation.py",
+      "sha256": "6b485b98e59ee4db8f9e573babfc194e4a2bd4fc587c2900f850314d411e6ae9",
+      "bytes": 11570
+    },
+    {
+      "path": "baselines/original_tsv3/.gitignore",
+      "source": "/tank/wk/TS/TSV3/.gitignore",
+      "sha256": "6ed57fca794d4f65cbf312bbd279d93b40a6d45be38368264fe9cd872beeb8b9",
+      "bytes": 259
+    },
+    {
+      "path": "baselines/original_tsv3/Makefile",
+      "source": "/tank/wk/TS/TSV3/Makefile",
+      "sha256": "9523dfbc355af3b852077e1429d11a552a36822d01ee4d7e509601bc27510ac2",
+      "bytes": 1033
+    },
+    {
+      "path": "baselines/original_tsv3/README.md",
+      "source": "/tank/wk/TS/TSV3/README.md",
+      "sha256": "256b4504b994b6f7f0643fb3cf6b5b08b8186e1ec290c0a3e45428b0c25ef838",
+      "bytes": 672
+    },
+    {
+      "path": "baselines/original_tsv3/README_CN.md",
+      "source": "/tank/wk/TS/TSV3/README_CN.md",
+      "sha256": "de908c41bd1111065cf4bcb0c61c81f11192b9a3c70c14f4fcb0f48c5841a636",
+      "bytes": 6995
+    },
+    {
+      "path": "baselines/original_tsv3/README_IRIS2D.md",
+      "source": "/tank/wk/TS/TSV3/README_IRIS2D.md",
+      "sha256": "8e07fab0109e5f76809a45d6ea74eb47d7801cef59a2feabe80364ffaa42f106",
+      "bytes": 6760
+    },
+    {
+      "path": "baselines/original_tsv3/clipseg_prompts.json",
+      "source": "/tank/wk/TS/TSV3/clipseg_prompts.json",
+      "sha256": "62d0fc273173a4709b4b12c7424477e55aa54712e73f3c78703b07dc4f0368bf",
+      "bytes": 332
+    },
+    {
+      "path": "baselines/original_tsv3/collect_tasksegment_source.py",
+      "source": "/tank/wk/TS/TSV3/collect_tasksegment_source.py",
+      "sha256": "6e6f465f25852c35c6a6d67b141f44e73063f83fc512709cc5dbf766cef05545",
+      "bytes": 863
+    },
+    {
+      "path": "baselines/original_tsv3/configs/iris2d_baseline.json",
+      "source": "/tank/wk/TS/TSV3/configs/iris2d_baseline.json",
+      "sha256": "caf94aa3eff28d9f7fa33424145eae4be589928d5fbcbfc3e20b7d66435b1af5",
+      "bytes": 478
+    },
+    {
+      "path": "baselines/original_tsv3/configs/iris2d_reference.json",
+      "source": "/tank/wk/TS/TSV3/configs/iris2d_reference.json",
+      "sha256": "db12b5380db0aaa04b835624fd1d7029dcbac9bc36d16499ca455a8a32d4f0ea",
+      "bytes": 3905
+    },
+    {
+      "path": "baselines/original_tsv3/configs/paper_3seeds.json",
+      "source": "/tank/wk/TS/TSV3/configs/paper_3seeds.json",
+      "sha256": "7ff44a2bddd9de12dc6d2a8c49c4efbf79fb9c6816fd7e3dec5f8459f76b9f05",
+      "bytes": 6320
+    },
+    {
+      "path": "baselines/original_tsv3/iris2d/__init__.py",
+      "source": "/tank/wk/TS/TSV3/iris2d/__init__.py",
+      "sha256": "bc85d2d3acaed8026192c0f13187a3575d364670e94c725dd378cc12a331f0eb",
+      "bytes": 100
+    },
+    {
+      "path": "baselines/original_tsv3/iris2d/model.py",
+      "source": "/tank/wk/TS/TSV3/iris2d/model.py",
+      "sha256": "108937dba37640b666af094467c01155058c14878ebf1b459ed0360d2774a19a",
+      "bytes": 9652
+    },
+    {
+      "path": "baselines/original_tsv3/iris2d/project.py",
+      "source": "/tank/wk/TS/TSV3/iris2d/project.py",
+      "sha256": "3564fdd8f21422d0a9dc28dd857f956e211406312ba8ddbaaa35cedc0b141bb5",
+      "bytes": 1746
+    },
+    {
+      "path": "baselines/original_tsv3/iris2d/protocol.py",
+      "source": "/tank/wk/TS/TSV3/iris2d/protocol.py",
+      "sha256": "29d124d71e1c7cc6ca517e86c8aee735e3c4fbd13188d367ddfebbd0d74159b9",
+      "bytes": 7270
+    },
+    {
+      "path": "baselines/original_tsv3/iris2d/runner.py",
+      "source": "/tank/wk/TS/TSV3/iris2d/runner.py",
+      "sha256": "eef0fa7fb7cd62d5e163dca4b2c063806f6e8f27eaa55fd92b404822619d1b64",
+      "bytes": 23044
+    },
+    {
+      "path": "baselines/original_tsv3/launch_tasksegment_ablations.py",
+      "source": "/tank/wk/TS/TSV3/launch_tasksegment_ablations.py",
+      "sha256": "b85bc2874ad2072553b6782bd58e4c9af1b63aa32bfb99675618a67b3cdb3603",
+      "bytes": 10983
+    },
+    {
+      "path": "baselines/original_tsv3/lvit_prompts.json",
+      "source": "/tank/wk/TS/TSV3/lvit_prompts.json",
+      "sha256": "62d0fc273173a4709b4b12c7424477e55aa54712e73f3c78703b07dc4f0368bf",
+      "bytes": 332
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/__init__.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a",
+      "bytes": 126
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/cli.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/cli.py",
+      "sha256": "376b534bced675352dd88a86671894462ac855e532d17aee7250600f4778b9b2",
+      "bytes": 9822
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/config.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc",
+      "bytes": 5348
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/dashboard.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982",
+      "bytes": 12728
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/progress.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b",
+      "bytes": 1225
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/provenance.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902",
+      "bytes": 3300
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/registry.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b",
+      "bytes": 16983
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/results.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463",
+      "bytes": 18265
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/runner.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc",
+      "bytes": 25650
+    },
+    {
+      "path": "baselines/original_tsv3/paperlab/statistics.py",
+      "source": "/tank/wk/TS/TSV3/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8",
+      "bytes": 5301
+    },
+    {
+      "path": "baselines/original_tsv3/pytest.ini",
+      "source": "/tank/wk/TS/TSV3/pytest.ini",
+      "sha256": "4551307f5b1a58adb7ec215d513089ba670b1737b81ada5a5863afe796d67343",
+      "bytes": 52
+    },
+    {
+      "path": "baselines/original_tsv3/requirements-clipseg.txt",
+      "source": "/tank/wk/TS/TSV3/requirements-clipseg.txt",
+      "sha256": "7242cfbed9f39cf24b552db0ce7ae62edb9ba936e66e476b27dea0f8f33e1ca1",
+      "bytes": 141
+    },
+    {
+      "path": "baselines/original_tsv3/requirements-iris2d.txt",
+      "source": "/tank/wk/TS/TSV3/requirements-iris2d.txt",
+      "sha256": "cc4af0d48a743488aef0098f2103790d1fd4e2ae2a80530193ca9e253ca38772",
+      "bytes": 157
+    },
+    {
+      "path": "baselines/original_tsv3/requirements-lvit.txt",
+      "source": "/tank/wk/TS/TSV3/requirements-lvit.txt",
+      "sha256": "94b44d2245d3db337cfaa5469ce86bced8799e4c4b6567409f55155d1fbd7da3",
+      "bytes": 149
+    },
+    {
+      "path": "baselines/original_tsv3/requirements-paper.txt",
+      "source": "/tank/wk/TS/TSV3/requirements-paper.txt",
+      "sha256": "e6c13c5788a21263be7b6703b5af3effa1edb9fdff9f7c7f1be73f827ac1ab64",
+      "bytes": 309
+    },
+    {
+      "path": "baselines/original_tsv3/requirements-sammed2d.txt",
+      "source": "/tank/wk/TS/TSV3/requirements-sammed2d.txt",
+      "sha256": "dae10cc70ce88c30bd88a3f3615ae83c2d28e968f725502778cf9d277130ccb3",
+      "bytes": 198
+    },
+    {
+      "path": "baselines/original_tsv3/requirements.txt",
+      "source": "/tank/wk/TS/TSV3/requirements.txt",
+      "sha256": "ff0122668e1534b02bce5eb68f2e267ebc541c415cf9f2e321a78dfb9b1a1136",
+      "bytes": 200
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/audit_dataset_splits.py",
+      "source": "/tank/wk/TS/TSV3/scripts/audit_dataset_splits.py",
+      "sha256": "a04295f6b420fd1ee74c5c1a55198887d8491a817b6e807afcdb729dc05b6808",
+      "bytes": 2352
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/audit_dataset_status.py",
+      "source": "/tank/wk/TS/TSV3/scripts/audit_dataset_status.py",
+      "sha256": "a155f5ec3d7b6ec979a99ec3dce9a6ecf5dd8ece7337b103b40ee72de56bb33a",
+      "bytes": 15543
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/audit_language_baseline_protocol.py",
+      "source": "/tank/wk/TS/TSV3/scripts/audit_language_baseline_protocol.py",
+      "sha256": "645a5ff28b9b00eb1d08ee35498709672a625d016740601023c84551ed3653c0",
+      "bytes": 1791
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/audit_text_features.py",
+      "source": "/tank/wk/TS/TSV3/scripts/audit_text_features.py",
+      "sha256": "a3e50f3cef1ee78a6059989b70760df49fbc95328ab760c77f6c1621173ea49f",
+      "bytes": 5650
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/calibrate_validation.py",
+      "source": "/tank/wk/TS/TSV3/scripts/calibrate_validation.py",
+      "sha256": "7337390ed5bb8822b1ba5082a13c284ba6e12947d9b2b033b285259c09807553",
+      "bytes": 14492
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/check_iris2d.py",
+      "source": "/tank/wk/TS/TSV3/scripts/check_iris2d.py",
+      "sha256": "d8f9d5bd63cf007fb67152f54adf585b46538f7f60d0d245f83878445d8c26b7",
+      "bytes": 6099
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/diagnose_iris2d.py",
+      "source": "/tank/wk/TS/TSV3/scripts/diagnose_iris2d.py",
+      "sha256": "247249d5638b64331bbf9b300884436cda323f95a24e50b5c72461dc7186bf11",
+      "bytes": 1515
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/diagnose_lvit_bn.py",
+      "source": "/tank/wk/TS/TSV3/scripts/diagnose_lvit_bn.py",
+      "sha256": "84f7ee903638864362ae36469683ad2f7b3cf637c1415edfca2b2b0986e20aeb",
+      "bytes": 6902
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/generate_text_features.py",
+      "source": "/tank/wk/TS/TSV3/scripts/generate_text_features.py",
+      "sha256": "2c341cc48af2287233045ba9506be24ea0c922274c5e089ea7d58ea8b64c9a1c",
+      "bytes": 5411
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/install_official_lvit.sh",
+      "source": "/tank/wk/TS/TSV3/scripts/install_official_lvit.sh",
+      "sha256": "c808f599dfcbfc1cf2a487cdcfcf976420c211a9ec74d7e4ce73bf0e6994e516",
+      "bytes": 2983
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/install_official_sammed2d.sh",
+      "source": "/tank/wk/TS/TSV3/scripts/install_official_sammed2d.sh",
+      "sha256": "170baf9e84dbf1fb804f0615254c4881ab8a4299976abf3850f63f87afca2983",
+      "bytes": 4277
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/install_official_swinunet.sh",
+      "source": "/tank/wk/TS/TSV3/scripts/install_official_swinunet.sh",
+      "sha256": "eaf3d9710d953becff65789533850a5f49d219a9ff735ebe1aacb55302036f29",
+      "bytes": 736
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/install_official_transunet.sh",
+      "source": "/tank/wk/TS/TSV3/scripts/install_official_transunet.sh",
+      "sha256": "a72f9273b321ff11835cc185703679e9b26b0ab3437aa8da4cd5c0f881abd984",
+      "bytes": 873
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/launch_iris2d.py",
+      "source": "/tank/wk/TS/TSV3/scripts/launch_iris2d.py",
+      "sha256": "340a9ff09472e1e1306466eef8970c7d0ff0883ca4682bac2d74525c64840419",
+      "bytes": 3250
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/paper.py",
+      "source": "/tank/wk/TS/TSV3/scripts/paper.py",
+      "sha256": "e1b0d98e6e200e84875cd553f25e142cce4c220f406581878b1ff9cb7df95408",
+      "bytes": 318
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/patch_lvit_dynamic_resolution.py",
+      "source": "/tank/wk/TS/TSV3/scripts/patch_lvit_dynamic_resolution.py",
+      "sha256": "d52720b456209a71cb9565108678de2e78d5ec0e3f6f3696b7b0326cf6942b8b",
+      "bytes": 5514
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/predict.py",
+      "source": "/tank/wk/TS/TSV3/scripts/predict.py",
+      "sha256": "1114a83798df00d84681bd062587bcf2f89187357dc0cab270e20cba0959fe63",
+      "bytes": 8590
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/predict_baseline.py",
+      "source": "/tank/wk/TS/TSV3/scripts/predict_baseline.py",
+      "sha256": "219a14fb02986f1c5de8ebcbc5ec4ab63f48ae6cf5ae11a6163a6bef092ec1ce",
+      "bytes": 11285
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/predict_clipseg_official.py",
+      "source": "/tank/wk/TS/TSV3/scripts/predict_clipseg_official.py",
+      "sha256": "39b1740bb84b9f094b974dcc55726efca109a822d6aa0739fb919b4d48546c6a",
+      "bytes": 12827
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/predict_iris2d.py",
+      "source": "/tank/wk/TS/TSV3/scripts/predict_iris2d.py",
+      "sha256": "78e1f88e224767f5a6ed588bf0a9a3dbb5d91297ac498a5f483ec30c902e997f",
+      "bytes": 184
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/predict_lvit_official.py",
+      "source": "/tank/wk/TS/TSV3/scripts/predict_lvit_official.py",
+      "sha256": "0eacf85e5dd81e9c7a37defa35fca0e6b0c53ffe251753c00b17acd055b1124a",
+      "bytes": 8771
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/predict_nnunet.py",
+      "source": "/tank/wk/TS/TSV3/scripts/predict_nnunet.py",
+      "sha256": "f2357a30dcb3114c62dbdb8dd88a928b47a847b37347be2d44144a570b70ffad",
+      "bytes": 2224
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/predict_sammed2d.py",
+      "source": "/tank/wk/TS/TSV3/scripts/predict_sammed2d.py",
+      "sha256": "29275b7463b373fb53ba96f38d58b6485544817643741b5b60d5996ae0135ae6",
+      "bytes": 9268
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/preflight_iris2d.py",
+      "source": "/tank/wk/TS/TSV3/scripts/preflight_iris2d.py",
+      "sha256": "efb0ea764d86be4f046a802cd4ff716b899ef62df64457999688b1b6e81fac31",
+      "bytes": 2654
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/prepare_nnunet.py",
+      "source": "/tank/wk/TS/TSV3/scripts/prepare_nnunet.py",
+      "sha256": "982a6bce36e3017f2a4f7f4183db46bbd5503bf53271ca0c5a251cc518ec46d5",
+      "bytes": 11859
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/prepare_transunet_pretrained.sh",
+      "source": "/tank/wk/TS/TSV3/scripts/prepare_transunet_pretrained.sh",
+      "sha256": "2b177bb5bf4cea1b55e9ef2f4b349ffa828b469655777d85a79a80894017e08f",
+      "bytes": 1621
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/print_server_structure.py",
+      "source": "/tank/wk/TS/TSV3/scripts/print_server_structure.py",
+      "sha256": "aef8eeb7b33cf46af08e454edad31262b1ff4e559540e7bf8466c42f0c610a16",
+      "bytes": 14894
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/run_iris2d_3seeds.sh",
+      "source": "/tank/wk/TS/TSV3/scripts/run_iris2d_3seeds.sh",
+      "sha256": "df419e302f96c107a7db2661bfeb7eeb58260777a842c22f69f892afad314d8d",
+      "bytes": 128
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/run_unet_gpu4.sh",
+      "source": "/tank/wk/TS/TSV3/scripts/run_unet_gpu4.sh",
+      "sha256": "5d44040c29837b2056618e0de50b7fd0a4c9a200398811cd80219dd4fe7e5cb7",
+      "bytes": 2155
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/run_unetpp_seed3407_gpu1.sh",
+      "source": "/tank/wk/TS/TSV3/scripts/run_unetpp_seed3407_gpu1.sh",
+      "sha256": "073d25f0733d5fcaa9a1ddcef0b480fc06278286a36101834ebe71e153a7184d",
+      "bytes": 1802
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/run_unetpp_seed42_gpu4.sh",
+      "source": "/tank/wk/TS/TSV3/scripts/run_unetpp_seed42_gpu4.sh",
+      "sha256": "516198e919fbd2e8757932c822c911b1c1759b216f53bd50ab1a1acaa11ec93d",
+      "bytes": 1781
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/sammed2d_protocol_utils.py",
+      "source": "/tank/wk/TS/TSV3/scripts/sammed2d_protocol_utils.py",
+      "sha256": "57e88d824161c26bd1020fe29b6c0d2e268a9a8218bcffc86a7737f492624c08",
+      "bytes": 5087
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/select_tasksegment_figure_samples.py",
+      "source": "/tank/wk/TS/TSV3/scripts/select_tasksegment_figure_samples.py",
+      "sha256": "52029b4f9673bf0e96229e5e5783618ff57f73152d0fc3519a622a1fd9cfde0a",
+      "bytes": 16057
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/summarize_iris2d.py",
+      "source": "/tank/wk/TS/TSV3/scripts/summarize_iris2d.py",
+      "sha256": "6d223a1af7500d04fcdf000788c65d455231890739cb71723d66a8c72406396d",
+      "bytes": 2124
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train.py",
+      "sha256": "a538b75e18875e7e1250e6a4ce9ab525f459d4a804a35f1979c887ad967a7ce1",
+      "bytes": 15408
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train_clipseg_official.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train_clipseg_official.py",
+      "sha256": "895e01962b730f70deeb0d03c6ae22a839ea9709cda8c9938d00c58930c1de5e",
+      "bytes": 33414
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train_iris2d.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train_iris2d.py",
+      "sha256": "f266189dcf787da72481aa16e4683c2f6c1c0ba85af127c03f02d4090d70def4",
+      "bytes": 180
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train_lvit_official.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train_lvit_official.py",
+      "sha256": "22ed7fc740c61c0e21d8c1907f5f3d4c93ce3208edfb3dc938f71c5040c4cd91",
+      "bytes": 28941
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train_nnunet.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train_nnunet.py",
+      "sha256": "381b4703f4b2dc133cc13551817ad5313c98c790df1471c9c82b32b8b0e2452c",
+      "bytes": 6556
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train_sammed2d_promptfree.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train_sammed2d_promptfree.py",
+      "sha256": "310e2b5221ba19f9ddbe36180918c6b962070c774c548a627c57e7ccdd05beb9",
+      "bytes": 17594
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train_swinunet_official.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train_swinunet_official.py",
+      "sha256": "f1b01ff2dd4d2f78d7f285553ec07fe80b67a6345ad2b9abfacfc7d60624960d",
+      "bytes": 31754
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train_transunet_official.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train_transunet_official.py",
+      "sha256": "a5d3f900b59c176aab0cc71d0636ea6f2e2eae7aca985af4c4c32264b5fed427",
+      "bytes": 30070
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train_unet.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train_unet.py",
+      "sha256": "ce0b0b6f36686c0c814f0629155de68dfbc66b3d023cdc534c061f541ce4d278",
+      "bytes": 35643
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/train_unetpp.py",
+      "source": "/tank/wk/TS/TSV3/scripts/train_unetpp.py",
+      "sha256": "ef2c0580e9ea17879f584dc533ebe809657040660a446fde4311e7e1881be37d",
+      "bytes": 39593
+    },
+    {
+      "path": "baselines/original_tsv3/scripts/verify_transunet_pretrained.py",
+      "source": "/tank/wk/TS/TSV3/scripts/verify_transunet_pretrained.py",
+      "sha256": "651f69a7b929c0cdf95deb7526b194414ddaecf3b9bcb0350621bc328ef9681f",
+      "bytes": 1271
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/__init__.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593",
+      "bytes": 88
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/checkpoint.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/checkpoint.py",
+      "sha256": "a1272a2352d053748e76aafef6b598e9213898c77e1c6e3e2ca22c4c327c557e",
+      "bytes": 3778
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/configs.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/configs.py",
+      "sha256": "ea4101d4cacb10839ed2d3901968fdbadaddbd954f2c102e451fc02711891585",
+      "bytes": 4041
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/data/__init__.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/data/__init__.py",
+      "sha256": "11d4778ee36af2a9ec48f1dbf68d20516836bf2bd03fe8f85b97b0411bed6756",
+      "bytes": 244
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/data/datasets.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/data/datasets.py",
+      "sha256": "06a6e8a4ea3a5a6cfc8e819daf0e20812d016d1ca469dceed416aa21d38c08dc",
+      "bytes": 15353
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/inference.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/inference.py",
+      "sha256": "dc2e090e77bebeda4094969ea461672d029d07dc9f2c9dc0bfaf5e0d2ce3390e",
+      "bytes": 13253
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/__init__.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c",
+      "bytes": 133
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/decoder.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/decoder.py",
+      "sha256": "daa8749fc84f9b614cc86b8ba12330c6d42113c9c9510c44dcde3d0178adb60e",
+      "bytes": 11877
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/dense_guidance.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8",
+      "bytes": 4721
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/encoder.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623",
+      "bytes": 2381
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/layers.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9",
+      "bytes": 1781
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/lvit_official.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51",
+      "bytes": 5588
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/sammed2d_official.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91",
+      "bytes": 12734
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/segmentation_model.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/segmentation_model.py",
+      "sha256": "dba1a8626b6649056cf74a6336057f277299365be2b7e012043c209d55f27beb",
+      "bytes": 13684
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/swinunet_official.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7",
+      "bytes": 7974
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/task_encoder.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/task_encoder.py",
+      "sha256": "b1ab36f4f62b203528a270032cb3ca5ba54db688416d5b5fe7df7fc4075e8456",
+      "bytes": 14182
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/models/transunet_official.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3",
+      "bytes": 6523
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/text/__init__.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111",
+      "bytes": 101
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/text/bank.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1",
+      "bytes": 4337
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/training/__init__.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2",
+      "bytes": 392
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/training/augmentations.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18",
+      "bytes": 6936
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/training/evaluation.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/training/evaluation.py",
+      "sha256": "54cb346468341b037bbd2777721e4f49a7840efec9bb303c78b4390defb11301",
+      "bytes": 10927
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/training/losses.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94",
+      "bytes": 4608
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/training/memory.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa",
+      "bytes": 3401
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/training/metrics.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d",
+      "bytes": 4488
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/training/prototypes.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946",
+      "bytes": 2239
+    },
+    {
+      "path": "baselines/original_tsv3/tasksegment/training/trainer.py",
+      "source": "/tank/wk/TS/TSV3/tasksegment/training/trainer.py",
+      "sha256": "d359c2afefa14dd50b14e2ae814bcda2e548fc607ac1db87be3f9a6f197b05eb",
+      "bytes": 16751
+    },
+    {
+      "path": "baselines/original_tsv3/tests/conftest.py",
+      "source": "/tank/wk/TS/TSV3/tests/conftest.py",
+      "sha256": "0cb67ba91674c07e557440292720aa3c3c111f4c41b7db1f4d219a7c68dc6f52",
+      "bytes": 144
+    },
+    {
+      "path": "baselines/original_tsv3/tests/test_core.py",
+      "source": "/tank/wk/TS/TSV3/tests/test_core.py",
+      "sha256": "e8fe80da1ebff67aabe22041f78d5c1a5f4d761d81b4347030df6de283b5086f",
+      "bytes": 4689
+    },
+    {
+      "path": "baselines/original_tsv3/tests/test_paperlab.py",
+      "source": "/tank/wk/TS/TSV3/tests/test_paperlab.py",
+      "sha256": "48b6b3fdbfa4653b586988b676a204e90ca96dc60cfb0f3f7de237dd594da5cb",
+      "bytes": 10072
+    },
+    {
+      "path": "baselines/original_tsv3/text_prompts.json",
+      "source": "/tank/wk/TS/TSV3/text_prompts.json",
+      "sha256": "1191fb17df7684569869579a3537ea9352f806745a8b32b889cc4cf231f3ecef",
+      "bytes": 4108
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/Config.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/Config.py",
+      "sha256": "0843ecc1c22f2ec07b19655bc5258d44d5b6f21a34018666993e5798c808b8ce",
+      "bytes": 2159
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/LICENSE",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/LICENSE",
+      "sha256": "a1fea0ea5085458a3f61b9097c5982ab7d758c51b1ff27b21c92a10742f65472",
+      "bytes": 1065
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/Load_Dataset.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/Load_Dataset.py",
+      "sha256": "c5e6312d03451fdc85b8b978276ebfea65e33bffa5f0d41b032cd61896e72220",
+      "bytes": 7255
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/README.md",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/README.md",
+      "sha256": "acc0e18819634691b82acf1d7f6d159b6f98fee5f87bddb1c82d20a53ea57577",
+      "bytes": 6760
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/Train_one_epoch.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/Train_one_epoch.py",
+      "sha256": "7b716cf3fd63478e5303377c4ba0681501cfcf3570c65a2d882250aba5019249",
+      "bytes": 5204
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/nets/LViT.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/nets/LViT.py",
+      "sha256": "332fa65b44ac20656fcb2cb9f7748d48cdd8904a9821d638245bff9a359f904f",
+      "bytes": 6757
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/nets/UNet.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/nets/UNet.py",
+      "sha256": "16282c479bea5dc945fe348acdb54941bfd38517c9a7a87361853c4036fcc7e3",
+      "bytes": 3777
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/nets/Vit.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/nets/Vit.py",
+      "sha256": "bcab2a95851d2367a230abae848cd2ef7a1ef0cee848584becee5d5e7a24a90f",
+      "bytes": 8127
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/nets/pixlevel.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/nets/pixlevel.py",
+      "sha256": "647e6aab18b51eab01479ef5d8b50df91a8641aca3c26819e493c599e345e482",
+      "bytes": 1548
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/nets/textlevel.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/nets/textlevel.py",
+      "sha256": "2bd132984927e971fd2eade9cc23a64081f5e0d12d07ee02bcaf65566e49c19b",
+      "bytes": 951
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/requirements.txt",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/requirements.txt",
+      "sha256": "49e12e3ef2574ef82b489da1b3f31dd67f9750fda5c91b5b9c803c38de28564c",
+      "bytes": 872
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/test_model.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/test_model.py",
+      "sha256": "8c1236a67ab90f64e51c623be9f408448ea93330f415d6951d1f40e8c7867cb8",
+      "bytes": 5995
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/train_model.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/train_model.py",
+      "sha256": "cf2dbf721705b25ef16094f5c23ba5ecc6368237a66a28a90e7b2c044de00a79",
+      "bytes": 9259
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/LViT/utils.py",
+      "source": "/tank/wk/TS/TSV3/third_party/LViT/utils.py",
+      "sha256": "30a9b3c78ade5e865602094fcb61dbaa646f4fadd79269144ec362664db92902",
+      "bytes": 21421
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/.gitignore",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/.gitignore",
+      "sha256": "5e2c671ddc9e301dafc241ad1a7c07aa85a91fef560a17721b41977b9eddba17",
+      "bytes": 3078
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/DataLoader.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/DataLoader.py",
+      "sha256": "0209fe51c4b5f9d3ef6f4194245f907cd9e6ffb8135f30a252eab5ff7cf4e4ce",
+      "bytes": 8276
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/LICENSE",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/README.md",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/README.md",
+      "sha256": "6f12798f19a80d111cf311feb23feb9925b93c26a74b0e44d481995ef86d9b24",
+      "bytes": 15678
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/data_demo/image2label_train.json",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/data_demo/image2label_train.json",
+      "sha256": "0b3a3eeb3f2427e3304a339aab1c796114f416a285e75e1078aff8106d95af6e",
+      "bytes": 1261
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/data_demo/label2image_test.json",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/data_demo/label2image_test.json",
+      "sha256": "f49e040c12ad00adf17508c3988be17ad6d37caa5b77b6ddf5136a15c902cede",
+      "bytes": 959
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/metrics.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/metrics.py",
+      "sha256": "a2b22e3cd48a5b94f9444bd1e0b2ce1f431c460b7d526c59e44e1e143c693c29",
+      "bytes": 1847
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/scripts/amg.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/scripts/amg.py",
+      "sha256": "24b3edd3f3880e75b64d2b8d67e1b7d9519f46f6479d1137c9ac3309e9d43105",
+      "bytes": 7043
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/scripts/export_onnx_encoder_model.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/scripts/export_onnx_encoder_model.py",
+      "sha256": "9f37a5cb608d4a610e2b22be4be03cdd6d2b41643141047cac74d5a3c4ecf932",
+      "bytes": 7790
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/scripts/export_onnx_model.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/scripts/export_onnx_model.py",
+      "sha256": "98d25ea44c218c5baa866a21d7907f62976b405a8b7c1a32c2fcd1fcc3486089",
+      "bytes": 7027
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/__init__.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/__init__.py",
+      "sha256": "c8d8eb649610b2d51f138481a89617a3dcb61106465121dcb1c2f23affc84c30",
+      "bytes": 427
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/automatic_mask_generator.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/automatic_mask_generator.py",
+      "sha256": "71c698d2b6cbf5a62eafa5f12106fdf3bff676102adf1aed2287df3b3990b4e0",
+      "bytes": 15148
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/build_sam.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/build_sam.py",
+      "sha256": "d2242e26aceb98fa8b6aceabf38e81de4b4d7f0e59fe1718fe2f6776d7a8ed4b",
+      "bytes": 6134
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/modeling/__init__.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/modeling/__init__.py",
+      "sha256": "2ea7b913fd58ca9b8cf4e03dd04c72805570e0e3140f1d93b8e50c3f02cdf676",
+      "bytes": 414
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/modeling/common.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/modeling/common.py",
+      "sha256": "93f25ae818de53cd0db8bc721d5cdb0b72b9e0ae24592fd25a79da58b7d7720b",
+      "bytes": 1548
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/modeling/image_encoder.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/modeling/image_encoder.py",
+      "sha256": "75afd7bc4c0d36bdd05e73b63dc44de2ad6d61da935527aec833113b3bcd6224",
+      "bytes": 16469
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/modeling/mask_decoder.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/modeling/mask_decoder.py",
+      "sha256": "119b758f918d7b21f0b51848ef7ffcddc2cfb00d228d64d9bd9ef297a24356c2",
+      "bytes": 7073
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/modeling/prompt_encoder.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/modeling/prompt_encoder.py",
+      "sha256": "26750faa269164c33b9fed647cb8827c535bbad9ae020b24fbf0937ff78ae512",
+      "bytes": 9203
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/modeling/sam.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/modeling/sam.py",
+      "sha256": "22df16c551ac9938c13930d04e54627e902c2b5c4b8590556862f3560621097b",
+      "bytes": 7226
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/modeling/sam_model.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/modeling/sam_model.py",
+      "sha256": "a9ebb6505279d976740c63449430d03a4ab38daecb40153daf5e8209d84c59d0",
+      "bytes": 4211
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/modeling/transformer.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/modeling/transformer.py",
+      "sha256": "f20c92759a8da1cd791564909dd2d827a079d400eb56c70d9fe7bdea878058f0",
+      "bytes": 8594
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/predictor.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/predictor.py",
+      "sha256": "6077b00fa92a160f6dc5d9f05a1c248b5985ad22ab5bd2f80bcc3967512f4d05",
+      "bytes": 11639
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/predictor_sammed.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/predictor_sammed.py",
+      "sha256": "67dcf7be87467d0146ad30e0f7b2a9039cb08e5e29d1030df12c1a08ac4adb51",
+      "bytes": 9900
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/utils/__init__.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/utils/__init__.py",
+      "sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+      "bytes": 197
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/utils/amg.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/utils/amg.py",
+      "sha256": "5c10f8dd63facb642ff090f61426b35b3c6c3a07e72839595cb04d74828b1d39",
+      "bytes": 12712
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/utils/onnx.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/utils/onnx.py",
+      "sha256": "fd6af99a19afbdb20c841f2022a1f935ad8ecbf6f9a73fa31a186c3c7676b9b7",
+      "bytes": 6500
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/segment_anything/utils/transforms.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/segment_anything/utils/transforms.py",
+      "sha256": "5494beedd396fcf574311cfef4706235f036e1534e305e324f1edb11b8c042f5",
+      "bytes": 3952
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/test.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/test.py",
+      "sha256": "a7ce5cbde89d9e7cf1c13f3ca9e38b14ee5918c16404351e778a263a72c676ac",
+      "bytes": 8979
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/train.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/train.py",
+      "sha256": "f2073e33fbb1aabb867d3223260f0fa00b5cf8899924599c3e4b1b59a7b2c63e",
+      "bytes": 12608
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/SAM-Med2D/utils.py",
+      "source": "/tank/wk/TS/TSV3/third_party/SAM-Med2D/utils.py",
+      "sha256": "b48be4e4d801400c9af784ed4b2eb1baaa52fbb7060237482e3a781f2458e9a4",
+      "bytes": 13172
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/README.md",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/README.md",
+      "sha256": "362db04f45741f784aef1beb3e7ab3dd9483ddc6690cb267c6f6a5bf57882828",
+      "bytes": 3495
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/config.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/config.py",
+      "sha256": "ed35dab7ff5c27c7612fc6897b2220540f04a50cb3e7c9bcaa48c7039d1cf753",
+      "bytes": 7582
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/configs/swin_tiny_patch4_window7_224_lite.yaml",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/configs/swin_tiny_patch4_window7_224_lite.yaml",
+      "sha256": "e3b78374bcaccd08cfa7d8d3b207ab39c8871e08a005cb5144a4ccee1f6e43c9",
+      "bytes": 332
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/datasets/README.md",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/datasets/README.md",
+      "sha256": "4fd01ea4f84e2afbd4e268568673eaba25791a02dba8bd6b5b64d9c11b129504",
+      "bytes": 1204
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/datasets/__init__.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/datasets/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/datasets/dataset_synapse.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/datasets/dataset_synapse.py",
+      "sha256": "ea8164112e0890a5992c213171139b745724e4dbd8e3b66f6b07cc6c0902b0f3",
+      "bytes": 3090
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/make_dataset_txt.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/make_dataset_txt.py",
+      "sha256": "f243ce95f99d6857a80800b1ac13c0f0cc8ac2232a2a6c64f9fe93acd58f58c5",
+      "bytes": 4569
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/networks/swin_transformer_unet_skip_expand_decoder_sys.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/networks/swin_transformer_unet_skip_expand_decoder_sys.py",
+      "sha256": "a5e04c0a19f13ff76a127527fd325d2eb6a5861edefa2f676643c0e44db46151",
+      "bytes": 33697
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/networks/vision_transformer.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/networks/vision_transformer.py",
+      "sha256": "9fd80a37eac47759f958872fcecf77ccbf18ac844126a03bc2de2aaaa6d4e69e",
+      "bytes": 3981
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/requirements.txt",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/requirements.txt",
+      "sha256": "66cbc4cb5e9053fc78782b7d932d6af46ef91dc2e22f5dbd8cf352b78cd1f55a",
+      "bytes": 121
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/test.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/test.py",
+      "sha256": "867324fb22401531a933c979ec4e13efe32d95a41ca208d9d64a5be5dd729189",
+      "bytes": 8116
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/test.sh",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/test.sh",
+      "sha256": "2ad80f4dbcc36ae78c5d54f93ed48468e9782ef843f82b1d4560708e04ee1e5c",
+      "bytes": 851
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/train.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/train.py",
+      "sha256": "88181824ecef91be914258c52d1da59ff6ed7bb103879ee0a9cfe9d0fc277b6b",
+      "bytes": 4902
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/train.sh",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/train.sh",
+      "sha256": "884470c705329f4c6101b5a72dc9d350b93d71211471b1d701377268201bf3a1",
+      "bytes": 853
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/trainer.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/trainer.py",
+      "sha256": "1c2cf7757ed244cc3bf92b32d55bf293a90614e67f15979104dd3806200ebf3f",
+      "bytes": 6707
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/Swin-Unet/utils.py",
+      "source": "/tank/wk/TS/TSV3/third_party/Swin-Unet/utils.py",
+      "sha256": "13033c05b9683edb452a2385e9039fa0e7eda1f235e6e202acc956bce3c7e081",
+      "bytes": 4250
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/LICENSE",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/LICENSE",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "bytes": 11558
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/README.md",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/README.md",
+      "sha256": "5eda26eb0205a217137cd7aa3fa3c0858239398829a1c5f143b282b67d074e3e",
+      "bytes": 3571
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/datasets/README.md",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/datasets/README.md",
+      "sha256": "4fd01ea4f84e2afbd4e268568673eaba25791a02dba8bd6b5b64d9c11b129504",
+      "bytes": 1204
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/datasets/dataset_synapse.py",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/datasets/dataset_synapse.py",
+      "sha256": "0bc58ac6e8a0ec3a9a1d42e47375970cda4be564844fe93a421aacafe9f3ad43",
+      "bytes": 2755
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/networks/vit_seg_configs.py",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/networks/vit_seg_configs.py",
+      "sha256": "c5082870723be233edeb5ebf46b052d5ac5eb66187f90a7b4b04c51ad326a303",
+      "bytes": 4427
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/networks/vit_seg_modeling.py",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/networks/vit_seg_modeling.py",
+      "sha256": "8b7773cc754702ec28a8cab530e273545feb393438e3e8f42b0294249f0d12fd",
+      "bytes": 18087
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/networks/vit_seg_modeling_resnet_skip.py",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/networks/vit_seg_modeling_resnet_skip.py",
+      "sha256": "9c97bdd8f8fb1a47b17463f5e333438f2673ac2e7ade5fdc71e07c7aee1d1305",
+      "bytes": 6410
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/requirements.txt",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/requirements.txt",
+      "sha256": "aa061b7753eccddb8d3cffb480d44b77cf2be35506216a5ad47dfbd57c8479c3",
+      "bytes": 121
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/test.py",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/test.py",
+      "sha256": "5dfbd0c024cc167e2562b5bf2d28c1504928530b575035ab232bf2a7a2443f3c",
+      "bytes": 7327
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/train.py",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/train.py",
+      "sha256": "e6a2ee3d45c6da263aa709bf5b2c118e82f248d58525c9613e29c09afc3d8efd",
+      "bytes": 4534
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/trainer.py",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/trainer.py",
+      "sha256": "38bea2279296240896252efe166cd1657babb295d636907091bc60fd262cd028",
+      "bytes": 4530
+    },
+    {
+      "path": "baselines/original_tsv3/third_party/TransUNet/utils.py",
+      "source": "/tank/wk/TS/TSV3/third_party/TransUNet/utils.py",
+      "sha256": "d02ce7f235dacbd05ba49a06d620f46109d469bb833aa9522b709afc047ebfbe",
+      "bytes": 4228
+    },
+    {
+      "path": "evaluation/f_and_v2/common.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/common.py",
+      "sha256": "509c1ccf2349e01c92531359cf1b3f0460b497b8ef1ab2eeb69d8678d1fae496",
+      "bytes": 1563
+    },
+    {
+      "path": "evaluation/f_and_v2/evaluate_f.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/evaluate_f.py",
+      "sha256": "5fb2aa74df2b3c66e69aefee1aad3d372d3a94d4d313dc346d19ce71556865ea",
+      "bytes": 10788
+    },
+    {
+      "path": "evaluation/f_and_v2/evaluate_v2.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/evaluate_v2.py",
+      "sha256": "bc4ddf2280e8cde829498e53e19f6082ccc1881e6cabf7733018fcc550a1403d",
+      "bytes": 5800
+    },
+    {
+      "path": "evaluation/f_and_v2/gpu_guard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/gpu_guard.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30",
+      "bytes": 2056
+    },
+    {
+      "path": "evaluation/f_and_v2/jobs.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/jobs.json",
+      "sha256": "47ad272b0d1ca1ecaa3937f4484388cf71d5a17206c995c2578e8d69e40e9930",
+      "bytes": 3090
+    },
+    {
+      "path": "evaluation/f_and_v2/manifest.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/manifest.json",
+      "sha256": "36f448d580525a00808b51b21e923bd7e1586cca00cc1319b80800edb1d1cdee",
+      "bytes": 848
+    },
+    {
+      "path": "evaluation/f_and_v2/prepare_ablation.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/prepare_ablation.py",
+      "sha256": "9bcdbc4b1c10f3ed005ccbc0ec2bae48a3b33f770e10aebb458559ac6d85417a",
+      "bytes": 4224
+    },
+    {
+      "path": "evaluation/f_and_v2/schedule.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/schedule.py",
+      "sha256": "317d84e3b25cf9316a18b4fa0444aba71b9b1a922cc031140d2a97d4b8483cd6",
+      "bytes": 4559
+    },
+    {
+      "path": "evaluation/main_six_variants/test_runner_v2.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/test_evaluation_20261027/test_runner_v2.py",
+      "sha256": "5530f159a9846486c2f7f647a705035f675b1b2772f2bbacb3e33b981d4a010b",
+      "bytes": 15127
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/analyze_all.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/analyze_all.py",
+      "sha256": "5c1e2ca0d8bb0ee9bd790cad6e79f697dbc6a02d8e30e7533a94187add56e0f5",
+      "bytes": 6821
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/direct_prediction.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/direct_prediction.py",
+      "sha256": "3c6799777190d8eecbec8a743051dc1451dd06d2169ec86f28446b8a95e4da66",
+      "bytes": 8015
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/direct_protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/direct_protocol.json",
+      "sha256": "4ba7ecc5806db4f40749917f8a40c8262862716e4d9ef39aad8e507306146ea9",
+      "bytes": 1629
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/extra_models.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/extra_models.py",
+      "sha256": "3e767f2a8649ebb25b71fba86bac247a95ca661fd471b6911e7a33a4780e67c3",
+      "bytes": 7507
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/gallbladder/code/experiment.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/gallbladder/code/experiment.py",
+      "sha256": "d76caed9bed747c67d46eba407a178b09b29e3e1a0be412129ea18f2984c95d6",
+      "bytes": 12938
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/gallbladder/code/experiment_v2.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/gallbladder/code/experiment_v2.py",
+      "sha256": "14a58bdf17b645e989c85d28fc2b1042521e40bd77efef0a325ee77c725460cb",
+      "bytes": 12865
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/gallbladder/code/gpu_guard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/gallbladder/code/gpu_guard.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30",
+      "bytes": 2056
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/gallbladder/protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/gallbladder/protocol.json",
+      "sha256": "95157d6780af9e4ab831f9074ec1a2e638d2d8f5accea8fa3238f4620a15800b",
+      "bytes": 4495
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/heart/code/experiment.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/heart/code/experiment.py",
+      "sha256": "d76caed9bed747c67d46eba407a178b09b29e3e1a0be412129ea18f2984c95d6",
+      "bytes": 12938
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/heart/code/experiment_v2.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/heart/code/experiment_v2.py",
+      "sha256": "14a58bdf17b645e989c85d28fc2b1042521e40bd77efef0a325ee77c725460cb",
+      "bytes": 12865
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/heart/code/gpu_guard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/heart/code/gpu_guard.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30",
+      "bytes": 2056
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/heart/protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/heart/protocol.json",
+      "sha256": "f01f6272480c671fc2dfc015318e6658236ddb357d77376c479c6362569fe735",
+      "bytes": 4323
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/liver/code/experiment.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/liver/code/experiment.py",
+      "sha256": "d76caed9bed747c67d46eba407a178b09b29e3e1a0be412129ea18f2984c95d6",
+      "bytes": 12938
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/liver/code/experiment_v2.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/liver/code/experiment_v2.py",
+      "sha256": "14a58bdf17b645e989c85d28fc2b1042521e40bd77efef0a325ee77c725460cb",
+      "bytes": 12865
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/liver/code/gpu_guard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/liver/code/gpu_guard.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30",
+      "bytes": 2056
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/liver/protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/liver/protocol.json",
+      "sha256": "fd078eb79a70878163729e9ea9a521540aac4babae34491bb75edded38def7bb",
+      "bytes": 4471
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/prompts.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/prompts.json",
+      "sha256": "d7eccc8bbf382741c8fab235ce9a0829172273b0faf9dcd69b881cdaf8465981",
+      "bytes": 179
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/run_preflights.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/run_preflights.py",
+      "sha256": "48a636a6d4a8fb2c0ae7db3c43ba3bb0385faf56550f043b706313aa73fe3c24",
+      "bytes": 1335
+    },
+    {
+      "path": "experiments/unseen_organs/all_baselines/schedule_all.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/five_baseline_supplement_20261027/schedule_all.py",
+      "sha256": "0bb972d138bde0cc31243f574f636192d9c4cb31eadd4777a7121c6be8122196",
+      "bytes": 4656
+    },
+    {
+      "path": "experiments/unseen_organs/camus/code/encode_original_paper.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/code/encode_original_paper.py",
+      "sha256": "469e8112985aac444aaffe3ecb1fe207b499e5cac924af664b87adb4dff54647",
+      "bytes": 3984
+    },
+    {
+      "path": "experiments/unseen_organs/camus/code/encode_target_text.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/code/encode_target_text.py",
+      "sha256": "866b9254aa5a59b13ab11bd5dbd6a362da18035dd19ee63d24f1c9d3530a4ad4",
+      "bytes": 3101
+    },
+    {
+      "path": "experiments/unseen_organs/camus/code/experiment.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/code/experiment.py",
+      "sha256": "042bfc68ebc20ef6a8ec7d0665e650a807b18cea6a2f44eeb7a54454fcd57e4a",
+      "bytes": 16095
+    },
+    {
+      "path": "experiments/unseen_organs/camus/code/experiment_v2.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/code/experiment_v2.py",
+      "sha256": "f6a1270666553bc47c32c5b819216f40d97afd8ae3b64210fc8bf7a01855e3ee",
+      "bytes": 16766
+    },
+    {
+      "path": "experiments/unseen_organs/camus/code/gpu_guard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/code/gpu_guard.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30",
+      "bytes": 2056
+    },
+    {
+      "path": "experiments/unseen_organs/camus/code/resume_schedule.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/code/resume_schedule.py",
+      "sha256": "8f926995d5a1e9b64984b9451507784a889a9b153a53a009ba02dae7eaaef35d",
+      "bytes": 3138
+    },
+    {
+      "path": "experiments/unseen_organs/camus/protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/protocol.json",
+      "sha256": "8c6c62e1fda267674c6121d7d203ce1f09240881a7b2a0e8ef725a575b2e9e9a",
+      "bytes": 3214
+    },
+    {
+      "path": "experiments/unseen_organs/camus/target_prompts.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/target_prompts.json",
+      "sha256": "73d2abac1f34e8f24d62055a1bbbbac82b0432a4df78ed47cd953e616abf9cd3",
+      "bytes": 2022
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/README_\u5b9e\u9a8c\u534f\u8bae.md",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/README_\u5b9e\u9a8c\u534f\u8bae.md",
+      "sha256": "9b6227d6b9d89714f957b70d2ed97e56689211d073ba4903dc882d44d4d7769f",
+      "bytes": 4438
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/code/encode_text.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/code/encode_text.py",
+      "sha256": "5250dd15ad19d76f9f2604924f626a5889b923777878b0344622e52cfc1cce87",
+      "bytes": 4073
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/code/prepare_data.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/code/prepare_data.py",
+      "sha256": "d443465d931397dabb9db45597a83090f2934be1a2dca8708739fb044ffecb87",
+      "bytes": 4254
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/code/qualitative.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/code/qualitative.py",
+      "sha256": "cd9691e3677f1f00fa6a159e86abb0aea6ae2c39154c5508a6b30c412167e4e1",
+      "bytes": 6320
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/code/qualitative_v2.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/code/qualitative_v2.py",
+      "sha256": "ca3585d9f994239cc4bb8ec963cfd8535c411e8728e638a73bffe96fbc52a56a",
+      "bytes": 6517
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/code/schedule.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/code/schedule.py",
+      "sha256": "7500bc21c91f1493b2564d74b1b6fef48f478b83f455c5ec380926db30c3945f",
+      "bytes": 3679
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/gallbladder/code/experiment.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/gallbladder/code/experiment.py",
+      "sha256": "ca138e9675d57363110c38741973a107ae8a8a1e755e5d10b985089dedd2fa2d",
+      "bytes": 17138
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/gallbladder/code/gpu_guard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/gallbladder/code/gpu_guard.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30",
+      "bytes": 2056
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/gallbladder/protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/gallbladder/protocol.json",
+      "sha256": "c2d981355a35994998c0b8c58427320220e34a36223c4c4d9b6030c240b9d684",
+      "bytes": 3630
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/gallbladder/target_prompts.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/gallbladder/target_prompts.json",
+      "sha256": "7a2b5d2dfb319bd07a9eb2814756528e76058a861b491eb165522cb8fdce53ac",
+      "bytes": 1915
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/liver/code/experiment.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/liver/code/experiment.py",
+      "sha256": "ca138e9675d57363110c38741973a107ae8a8a1e755e5d10b985089dedd2fa2d",
+      "bytes": 17138
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/liver/code/gpu_guard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/liver/code/gpu_guard.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30",
+      "bytes": 2056
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/liver/protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/liver/protocol.json",
+      "sha256": "b8a279cfffe9f73ad71d61d069944f3021c3edcdeb793c19e5e7a49d3e5cb151",
+      "bytes": 3618
+    },
+    {
+      "path": "experiments/unseen_organs/lus7seg/liver/target_prompts.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/liver/target_prompts.json",
+      "sha256": "a7e51b8ac0ba7c1ed1db36d01d240d2b77d64553f47d965ec2f310a744eb0605",
+      "bytes": 1778
+    },
+    {
+      "path": "main_f/seed42/bundle_manifest.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba",
+      "bytes": 5099
+    },
+    {
+      "path": "main_f/seed42/cache_v2/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827",
+      "bytes": 79
+    },
+    {
+      "path": "main_f/seed42/cache_v2/engine.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71",
+      "bytes": 3265
+    },
+    {
+      "path": "main_f/seed42/cache_v2/input_cache.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/cache_v2/input_cache.py",
+      "sha256": "0b8d344587c95a8e8dbf465d5604e27778edbe6788dbe8226a142df4784cb1e4",
+      "bytes": 3834
+    },
+    {
+      "path": "main_f/seed42/cache_v2/manifest.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/cache_v2/manifest.json",
+      "sha256": "5adc3a3774acb5ff19c2027f790f6d81a03043b7329082bd9f1fb5e0f1f0a4d9",
+      "bytes": 734
+    },
+    {
+      "path": "main_f/seed42/cache_v2/train.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98",
+      "bytes": 9521
+    },
+    {
+      "path": "main_f/seed42/cache_v2/validate_full.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e",
+      "bytes": 1910
+    },
+    {
+      "path": "main_f/seed42/cache_v2/verify.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda",
+      "bytes": 13888
+    },
+    {
+      "path": "main_f/seed42/campaign/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597",
+      "bytes": 59
+    },
+    {
+      "path": "main_f/seed42/campaign/encode_text.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100",
+      "bytes": 3273
+    },
+    {
+      "path": "main_f/seed42/campaign/launch.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84",
+      "bytes": 5207
+    },
+    {
+      "path": "main_f/seed42/campaign/model.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/campaign/model.py",
+      "sha256": "6ed7c0e0b3c13ec24780bf701a8dcab6b96cae0f4259aaa92ed46fb1aeefc818",
+      "bytes": 7704
+    },
+    {
+      "path": "main_f/seed42/campaign/preflight.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962",
+      "bytes": 4536
+    },
+    {
+      "path": "main_f/seed42/campaign/prompts.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/campaign/prompts.json",
+      "sha256": "e9ee03cb671be9529f75a40d991c8e6ff0f836e447e58726c55a234c01ca1583",
+      "bytes": 5348
+    },
+    {
+      "path": "main_f/seed42/campaign/protocol.json",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201",
+      "bytes": 1404
+    },
+    {
+      "path": "main_f/seed42/campaign/test_cpu.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26",
+      "bytes": 4177
+    },
+    {
+      "path": "main_f/seed42/campaign/train.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/campaign/train.py",
+      "sha256": "18781b375168b154d1deb245ce980cdc96c2ab9008ac7bcc0c570a8858fa24bb",
+      "bytes": 14707
+    },
+    {
+      "path": "main_f/seed42/paperlab/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a",
+      "bytes": 126
+    },
+    {
+      "path": "main_f/seed42/paperlab/cli.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c",
+      "bytes": 9819
+    },
+    {
+      "path": "main_f/seed42/paperlab/config.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc",
+      "bytes": 5348
+    },
+    {
+      "path": "main_f/seed42/paperlab/dashboard.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982",
+      "bytes": 12728
+    },
+    {
+      "path": "main_f/seed42/paperlab/progress.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b",
+      "bytes": 1225
+    },
+    {
+      "path": "main_f/seed42/paperlab/provenance.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902",
+      "bytes": 3300
+    },
+    {
+      "path": "main_f/seed42/paperlab/registry.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b",
+      "bytes": 16983
+    },
+    {
+      "path": "main_f/seed42/paperlab/results.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463",
+      "bytes": 18265
+    },
+    {
+      "path": "main_f/seed42/paperlab/runner.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc",
+      "bytes": 25650
+    },
+    {
+      "path": "main_f/seed42/paperlab/statistics.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8",
+      "bytes": 5301
+    },
+    {
+      "path": "main_f/seed42/tasksegment/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593",
+      "bytes": 88
+    },
+    {
+      "path": "main_f/seed42/tasksegment/checkpoint.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9",
+      "bytes": 4108
+    },
+    {
+      "path": "main_f/seed42/tasksegment/configs.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f",
+      "bytes": 4207
+    },
+    {
+      "path": "main_f/seed42/tasksegment/data/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/data/__init__.py",
+      "sha256": "11d4778ee36af2a9ec48f1dbf68d20516836bf2bd03fe8f85b97b0411bed6756",
+      "bytes": 244
+    },
+    {
+      "path": "main_f/seed42/tasksegment/data/datasets.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/data/datasets.py",
+      "sha256": "06a6e8a4ea3a5a6cfc8e819daf0e20812d016d1ca469dceed416aa21d38c08dc",
+      "bytes": 15353
+    },
+    {
+      "path": "main_f/seed42/tasksegment/inference.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5",
+      "bytes": 13560
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c",
+      "bytes": 133
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/decoder.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5",
+      "bytes": 12875
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/dense_guidance.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8",
+      "bytes": 4721
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/encoder.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623",
+      "bytes": 2381
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/layers.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9",
+      "bytes": 1781
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/lvit_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51",
+      "bytes": 5588
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/sammed2d_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91",
+      "bytes": 12734
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/segmentation_model.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260",
+      "bytes": 17288
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/swinunet_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7",
+      "bytes": 7974
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/task_encoder.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979",
+      "bytes": 17372
+    },
+    {
+      "path": "main_f/seed42/tasksegment/models/transunet_official.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3",
+      "bytes": 6523
+    },
+    {
+      "path": "main_f/seed42/tasksegment/text/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111",
+      "bytes": 101
+    },
+    {
+      "path": "main_f/seed42/tasksegment/text/bank.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1",
+      "bytes": 4337
+    },
+    {
+      "path": "main_f/seed42/tasksegment/training/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2",
+      "bytes": 392
+    },
+    {
+      "path": "main_f/seed42/tasksegment/training/augmentations.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18",
+      "bytes": 6936
+    },
+    {
+      "path": "main_f/seed42/tasksegment/training/evaluation.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb",
+      "bytes": 11332
+    },
+    {
+      "path": "main_f/seed42/tasksegment/training/losses.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94",
+      "bytes": 4608
+    },
+    {
+      "path": "main_f/seed42/tasksegment/training/memory.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa",
+      "bytes": 3401
+    },
+    {
+      "path": "main_f/seed42/tasksegment/training/metrics.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d",
+      "bytes": 4488
+    },
+    {
+      "path": "main_f/seed42/tasksegment/training/prototypes.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946",
+      "bytes": 2239
+    },
+    {
+      "path": "main_f/seed42/tasksegment/training/trainer.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa",
+      "bytes": 19748
+    },
+    {
+      "path": "main_f/seed42/tasksegment/visualization/__init__.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047",
+      "bytes": 187
+    },
+    {
+      "path": "main_f/seed42/tasksegment/visualization/export_visual_token_states.py",
+      "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688",
+      "bytes": 13290
+    }
+  ],
+  "notes": [
+    "Original source bytes retained; external assets and original result files omitted.",
+    "main_f/seed42 is the completed seed42 F source; portable_release is supporting release code, not F.",
+    "Original experiment identifiers are not renamed to avoid changing checkpoint compatibility."
+  ],
+  "publication_scope": "Selected paper source code only; non-code outputs and unrelated historical experiments omitted"
+}

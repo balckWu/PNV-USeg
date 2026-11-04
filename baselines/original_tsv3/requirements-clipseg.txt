@@ -1,0 +1,4 @@
+# Install in the existing TS environment after the project's core requirements.
+transformers>=4.39,<6
+safetensors>=0.4
+huggingface-hub>=0.20

@@ -1,0 +1,12 @@
+{
+  "name": "fresh_cached_f_multiseed_20261027",
+  "parent_manifest_sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba",
+  "files": {
+    "cache_v2/__init__.py": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827",
+    "cache_v2/engine.py": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71",
+    "cache_v2/input_cache.py": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223",
+    "cache_v2/train.py": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98",
+    "cache_v2/validate_full.py": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e",
+    "cache_v2/verify.py": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda"
+  }
+}

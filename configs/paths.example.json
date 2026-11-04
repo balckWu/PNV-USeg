@@ -1,0 +1,15 @@
+{
+  "description": "External paths only. This template does not start training.",
+  "data_root": "/path/outside/repository/six_domain_data",
+  "output_root": "/path/outside/repository/experiment_outputs",
+  "f_biolord_encoder": "/path/outside/repository/BioLORD-2023",
+  "f_text_cache": "/path/outside/repository/f_text_bank.pt",
+  "original_biobert_encoder": "/path/outside/repository/biobert-large-cased-v1.1",
+  "original_text_features": "/path/outside/repository/original_text_features",
+  "baseline_pretrained_root": "/path/outside/repository/baseline_pretrained",
+  "source_training_checkpoints": "/path/outside/repository/source_checkpoints",
+  "target_datasets": "/path/outside/repository/unseen_organ_data",
+  "physical_gpu": null,
+  "forbidden_physical_gpu": 3,
+  "note": "Historical sources do not read this template automatically; adapt paths in a separate documented run copy."
+}

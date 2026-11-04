@@ -1,0 +1,38 @@
+[
+  {
+    "condition": "F",
+    "seed": 42,
+    "result_dir": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/test_evaluation_20261027/F",
+    "complete": true
+  },
+  {
+    "condition": "F",
+    "seed": 3407,
+    "result_dir": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/results/F_seed3407",
+    "complete": true
+  },
+  {
+    "condition": "F",
+    "seed": 2026,
+    "result_dir": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/results/F_seed2026",
+    "complete": true
+  },
+  {
+    "condition": "F_remove_dual",
+    "seed": 42,
+    "result_dir": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_dual/results/F_remove_dual",
+    "complete": true
+  },
+  {
+    "condition": "F_remove_summary",
+    "seed": 42,
+    "result_dir": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_parallel_20261029/jobs/F_remove_summary/results/F_remove_summary",
+    "complete": true
+  },
+  {
+    "condition": "F_remove_all_text",
+    "seed": 42,
+    "result_dir": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_core_ablation_20261030/results/F_remove_all_text",
+    "complete": true
+  }
+]

@@ -1,0 +1,2572 @@
+{
+  "files": [
+    {
+      "path": "main_f/current_multiseed/campaign/prompts.json",
+      "origin": "f_extra_seeds_20261027/campaign/prompts.json",
+      "sha256": "e9ee03cb671be9529f75a40d991c8e6ff0f836e447e58726c55a234c01ca1583"
+    },
+    {
+      "path": "main_f/current_multiseed/campaign/train.py",
+      "origin": "f_extra_seeds_20261027/campaign/train.py",
+      "sha256": "ee7ed4dce1649ca95206c1298314d60f9f7f6f94fa480fedcb81533816b2a15d"
+    },
+    {
+      "path": "main_f/current_multiseed/campaign/test_cpu.py",
+      "origin": "f_extra_seeds_20261027/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26"
+    },
+    {
+      "path": "main_f/current_multiseed/campaign/launch.py",
+      "origin": "f_extra_seeds_20261027/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84"
+    },
+    {
+      "path": "main_f/current_multiseed/campaign/preflight.py",
+      "origin": "f_extra_seeds_20261027/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962"
+    },
+    {
+      "path": "main_f/current_multiseed/campaign/protocol.json",
+      "origin": "f_extra_seeds_20261027/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201"
+    },
+    {
+      "path": "main_f/current_multiseed/campaign/__init__.py",
+      "origin": "f_extra_seeds_20261027/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597"
+    },
+    {
+      "path": "main_f/current_multiseed/campaign/model.py",
+      "origin": "f_extra_seeds_20261027/campaign/model.py",
+      "sha256": "6ed7c0e0b3c13ec24780bf701a8dcab6b96cae0f4259aaa92ed46fb1aeefc818"
+    },
+    {
+      "path": "main_f/current_multiseed/campaign/encode_text.py",
+      "origin": "f_extra_seeds_20261027/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100"
+    },
+    {
+      "path": "main_f/current_multiseed/campaign/gpu_map.json",
+      "origin": "f_extra_seeds_20261027/campaign/gpu_map.json",
+      "sha256": "923207fa5185b0e7f3c7f049099a141ddd76cbd06d90d19a7b6ca6492552b5a6"
+    },
+    {
+      "path": "main_f/current_multiseed/cache_v2/validate_full.py",
+      "origin": "f_extra_seeds_20261027/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e"
+    },
+    {
+      "path": "main_f/current_multiseed/cache_v2/manifest.json",
+      "origin": "f_extra_seeds_20261027/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516"
+    },
+    {
+      "path": "main_f/current_multiseed/cache_v2/__init__.py",
+      "origin": "f_extra_seeds_20261027/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827"
+    },
+    {
+      "path": "main_f/current_multiseed/cache_v2/verify.py",
+      "origin": "f_extra_seeds_20261027/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda"
+    },
+    {
+      "path": "main_f/current_multiseed/cache_v2/input_cache.py",
+      "origin": "f_extra_seeds_20261027/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223"
+    },
+    {
+      "path": "main_f/current_multiseed/cache_v2/engine.py",
+      "origin": "f_extra_seeds_20261027/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71"
+    },
+    {
+      "path": "main_f/current_multiseed/cache_v2/train.py",
+      "origin": "f_extra_seeds_20261027/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/inference.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/__init__.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/configs.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/checkpoint.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/text/bank.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/text/__init__.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/visualization/__init__.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/visualization/export_visual_token_states.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/training/prototypes.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/training/losses.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/training/evaluation.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/training/__init__.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/training/memory.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/training/augmentations.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/training/trainer.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/training/metrics.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/swinunet_official.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/task_encoder.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/encoder.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/sammed2d_official.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/__init__.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/transunet_official.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/decoder.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/layers.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/segmentation_model.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/dense_guidance.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8"
+    },
+    {
+      "path": "main_f/current_multiseed/tasksegment/models/lvit_official.py",
+      "origin": "f_extra_seeds_20261027/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/statistics.py",
+      "origin": "f_extra_seeds_20261027/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/config.py",
+      "origin": "f_extra_seeds_20261027/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/progress.py",
+      "origin": "f_extra_seeds_20261027/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/registry.py",
+      "origin": "f_extra_seeds_20261027/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/dashboard.py",
+      "origin": "f_extra_seeds_20261027/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/cli.py",
+      "origin": "f_extra_seeds_20261027/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/results.py",
+      "origin": "f_extra_seeds_20261027/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/__init__.py",
+      "origin": "f_extra_seeds_20261027/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/gpu.py",
+      "origin": "f_extra_seeds_20261027/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/runner.py",
+      "origin": "f_extra_seeds_20261027/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc"
+    },
+    {
+      "path": "main_f/current_multiseed/paperlab/provenance.py",
+      "origin": "f_extra_seeds_20261027/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902"
+    },
+    {
+      "path": "main_f/current_multiseed/fresh_train.py",
+      "origin": "f_extra_seeds_20261027/fresh_train.py",
+      "sha256": "fe664deddd79fa89270ca53c8392b590e72b5d286a9825f99c0f93f2b9341bdf"
+    },
+    {
+      "path": "main_f/current_multiseed/bundle_manifest.json",
+      "origin": "f_extra_seeds_20261027/bundle_manifest.json",
+      "sha256": "d71df8cc1593e99448129f1a86264f398fd70536cdab54b4442ee69d14fe920e"
+    },
+    {
+      "path": "ablations/f_remove_all_text/structural_init.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/structural_init.py",
+      "sha256": "c40a1084298681b3783c8bf27b35456495c4672a30b8c655e13b49d32f693751"
+    },
+    {
+      "path": "ablations/f_remove_all_text/cpu_audit.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/cpu_audit.py",
+      "sha256": "8a22dc249809538c9538b845975bf8a6644cb3bbc897148ef24d3ced3353d3e0"
+    },
+    {
+      "path": "ablations/f_remove_all_text/expected_visual_initialization.json",
+      "origin": "f_core_ablation_20261030/source_pure_visual/expected_visual_initialization.json",
+      "sha256": "232e44485aca6bbe531301472064819813923c532a0c4da78ed6f18ae7edfef1"
+    },
+    {
+      "path": "ablations/f_remove_all_text/parent_bundle_manifest.json",
+      "origin": "f_core_ablation_20261030/source_pure_visual/parent_bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba"
+    },
+    {
+      "path": "ablations/f_remove_all_text/train_ablation.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/train_ablation.py",
+      "sha256": "16de47d3d4c33f00827d7285c8df236bc3308b28fd6f93a0110fd57153800589"
+    },
+    {
+      "path": "ablations/f_remove_all_text/cache_v2/__init__.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827"
+    },
+    {
+      "path": "ablations/f_remove_all_text/cache_v2/input_cache.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223"
+    },
+    {
+      "path": "ablations/f_remove_all_text/cache_v2/validate_full.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e"
+    },
+    {
+      "path": "ablations/f_remove_all_text/cache_v2/manifest.json",
+      "origin": "f_core_ablation_20261030/source_pure_visual/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516"
+    },
+    {
+      "path": "ablations/f_remove_all_text/cache_v2/engine.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71"
+    },
+    {
+      "path": "ablations/f_remove_all_text/cache_v2/train.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98"
+    },
+    {
+      "path": "ablations/f_remove_all_text/cache_v2/verify.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/registry.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/progress.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/dashboard.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/gpu.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/provenance.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/config.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/__init__.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/results.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/runner.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/statistics.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8"
+    },
+    {
+      "path": "ablations/f_remove_all_text/paperlab/cli.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c"
+    },
+    {
+      "path": "ablations/f_remove_all_text/campaign/protocol.json",
+      "origin": "f_core_ablation_20261030/source_pure_visual/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201"
+    },
+    {
+      "path": "ablations/f_remove_all_text/campaign/launch.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84"
+    },
+    {
+      "path": "ablations/f_remove_all_text/campaign/test_cpu.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26"
+    },
+    {
+      "path": "ablations/f_remove_all_text/campaign/preflight.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962"
+    },
+    {
+      "path": "ablations/f_remove_all_text/campaign/train.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/campaign/train.py",
+      "sha256": "d126a12fa020037e0445f13a2e2e293ef8558d6daf44d7fedc0b549fe5844070"
+    },
+    {
+      "path": "ablations/f_remove_all_text/campaign/encode_text.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100"
+    },
+    {
+      "path": "ablations/f_remove_all_text/campaign/model.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/campaign/model.py",
+      "sha256": "b2cac7af290ddc0d7b136571cc8b7348ae70da8cff9271b638cab4f9232afdd1"
+    },
+    {
+      "path": "ablations/f_remove_all_text/campaign/__init__.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597"
+    },
+    {
+      "path": "ablations/f_remove_all_text/campaign/gpu_map.json",
+      "origin": "f_core_ablation_20261030/source_pure_visual/campaign/gpu_map.json",
+      "sha256": "923207fa5185b0e7f3c7f049099a141ddd76cbd06d90d19a7b6ca6492552b5a6"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/configs.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/checkpoint.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/inference.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/__init__.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/training/augmentations.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/training/__init__.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/training/memory.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/training/trainer.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/training/losses.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/training/prototypes.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/training/evaluation.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/training/metrics.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/visualization/export_visual_token_states.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/visualization/__init__.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/lvit_official.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/sammed2d_official.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/dense_guidance.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/segmentation_model.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/__init__.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/swinunet_official.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/transunet_official.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/encoder.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/layers.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/decoder.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/models/task_encoder.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/text/bank.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1"
+    },
+    {
+      "path": "ablations/f_remove_all_text/tasksegment/text/__init__.py",
+      "origin": "f_core_ablation_20261030/source_pure_visual/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111"
+    },
+    {
+      "path": "ablations/f_remove_all_text/bundle_manifest.json",
+      "origin": "f_core_ablation_20261030/source_pure_visual/bundle_manifest.json",
+      "sha256": "4255bbd3f344b3a63873aa279bebae75e66e807a739a63596e3698a2fb353947"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/train_ablation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/train_ablation.py",
+      "sha256": "8b41468babc6337b4906dab35b1b3c8039f9f8ca497d737ecaeb8686dd043370"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/expected_initialization.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/expected_initialization.json",
+      "sha256": "5a7cdb092208d059a40feab8a648d9b6c95613b2d08b776a938ba8cee21e2bf3"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/reference_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/reference_model.py",
+      "sha256": "6ed7c0e0b3c13ec24780bf701a8dcab6b96cae0f4259aaa92ed46fb1aeefc818"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/parent_bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/parent_bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/structural_init.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/structural_init.py",
+      "sha256": "983a9c36b51628ef95bc5d5c9062aa14fd0ae99b1592cba11f14a2e33f8f6588"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/inference.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/checkpoint.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/configs.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/training/augmentations.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/training/memory.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/training/losses.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/training/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/training/metrics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/training/prototypes.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/training/trainer.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/training/evaluation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/text/bank.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/text/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/sammed2d_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/decoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/layers.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/swinunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/transunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/task_encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/lvit_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/dense_guidance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/segmentation_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/models/encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/visualization/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/tasksegment/visualization/export_visual_token_states.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/cache_v2/engine.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/cache_v2/input_cache.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/cache_v2/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/cache_v2/validate_full.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/cache_v2/verify.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/cache_v2/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/cache_v2/manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/runner.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/results.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/provenance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/gpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/cli.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/progress.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/registry.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/config.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/dashboard.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/paperlab/statistics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/model.py",
+      "sha256": "5fb0959fc0fe511ca984d4a5859d6dcc88735ef66c22f92c00765f2612846158"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/gpu_map.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/gpu_map.json",
+      "sha256": "923207fa5185b0e7f3c7f049099a141ddd76cbd06d90d19a7b6ca6492552b5a6"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/launch.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/encode_text.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/prompts.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/prompts.json",
+      "sha256": "e9ee03cb671be9529f75a40d991c8e6ff0f836e447e58726c55a234c01ca1583"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/test_cpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/train.py",
+      "sha256": "6df0d73929ce3dd1b89ed6d7e01a5c0c9cc6d3f5738d52d640ed399c981ea0a1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/protocol.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/campaign/preflight.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed3407/source/bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed3407/source/bundle_manifest.json",
+      "sha256": "8c97e639f3b47bc5d4032b60917775e1cfbfb11eee95c97677522b038de5a877"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/train_ablation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/train_ablation.py",
+      "sha256": "8b41468babc6337b4906dab35b1b3c8039f9f8ca497d737ecaeb8686dd043370"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/reference_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/reference_model.py",
+      "sha256": "6ed7c0e0b3c13ec24780bf701a8dcab6b96cae0f4259aaa92ed46fb1aeefc818"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/expected_initialization.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/expected_initialization.json",
+      "sha256": "0ebe2548a48376966e70289a838e6c69d67faab7453b9fb7761091333b5c6275"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/structural_init.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/structural_init.py",
+      "sha256": "983a9c36b51628ef95bc5d5c9062aa14fd0ae99b1592cba11f14a2e33f8f6588"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/parent_bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/parent_bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/cache_v2/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/cache_v2/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/cache_v2/manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/cache_v2/validate_full.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/cache_v2/engine.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/cache_v2/input_cache.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/cache_v2/verify.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/inference.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/checkpoint.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/configs.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/text/bank.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/text/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/training/memory.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/training/losses.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/training/augmentations.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/training/metrics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/training/trainer.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/training/evaluation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/training/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/training/prototypes.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/layers.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/dense_guidance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/decoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/task_encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/segmentation_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/swinunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/transunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/sammed2d_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/models/lvit_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/visualization/export_visual_token_states.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/tasksegment/visualization/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/cli.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/config.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/statistics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/provenance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/results.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/progress.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/registry.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/gpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/dashboard.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/paperlab/runner.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/test_cpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/encode_text.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/train.py",
+      "sha256": "6df0d73929ce3dd1b89ed6d7e01a5c0c9cc6d3f5738d52d640ed399c981ea0a1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/gpu_map.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/gpu_map.json",
+      "sha256": "923207fa5185b0e7f3c7f049099a141ddd76cbd06d90d19a7b6ca6492552b5a6"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/launch.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/prompts.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/prompts.json",
+      "sha256": "e9ee03cb671be9529f75a40d991c8e6ff0f836e447e58726c55a234c01ca1583"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/model.py",
+      "sha256": "5fb0959fc0fe511ca984d4a5859d6dcc88735ef66c22f92c00765f2612846158"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/protocol.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/campaign/preflight.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_dual_seed2026/source/bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_dual_seed2026/source/bundle_manifest.json",
+      "sha256": "cd297b35af774ca82098dd1e1e4ac73bf34f470420a53716b3bb83c071d2de35"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/parent_bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/parent_bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/structural_init.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/structural_init.py",
+      "sha256": "983a9c36b51628ef95bc5d5c9062aa14fd0ae99b1592cba11f14a2e33f8f6588"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/expected_initialization.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/expected_initialization.json",
+      "sha256": "cb79eaf627aa7e75b7d8ab8210b941103c542846c1bef1b6eacd8bbfb1949dde"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/train_ablation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/train_ablation.py",
+      "sha256": "65b9dbad59f102a50daf1c47cb69342e1395a04742d6e2af6a7ec5c2624c49c4"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/reference_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/reference_model.py",
+      "sha256": "6ed7c0e0b3c13ec24780bf701a8dcab6b96cae0f4259aaa92ed46fb1aeefc818"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/checkpoint.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/configs.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/inference.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/text/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/text/bank.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/visualization/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/visualization/export_visual_token_states.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/sammed2d_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/layers.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/swinunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/lvit_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/dense_guidance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/task_encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/decoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/segmentation_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/models/transunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/training/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/training/losses.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/training/metrics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/training/augmentations.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/training/prototypes.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/training/memory.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/training/evaluation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/tasksegment/training/trainer.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/preflight.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/encode_text.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/model.py",
+      "sha256": "2509d74a060cbe48120ff4babc3976e905cf051738e4a0360dd2925a83d8b30f"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/prompts.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/prompts.json",
+      "sha256": "e9ee03cb671be9529f75a40d991c8e6ff0f836e447e58726c55a234c01ca1583"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/train.py",
+      "sha256": "6b2486046488c93f3bbe2c7ba499d944f2fa7eaf322a38680a797d19d27d46e9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/protocol.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/launch.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/gpu_map.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/gpu_map.json",
+      "sha256": "923207fa5185b0e7f3c7f049099a141ddd76cbd06d90d19a7b6ca6492552b5a6"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/campaign/test_cpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/results.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/provenance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/runner.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/cli.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/dashboard.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/config.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/gpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/progress.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/registry.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/paperlab/statistics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/cache_v2/verify.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/cache_v2/engine.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/cache_v2/input_cache.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/cache_v2/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/cache_v2/manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/cache_v2/validate_full.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/cache_v2/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed3407/source/bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed3407/source/bundle_manifest.json",
+      "sha256": "5a0f97f470f685954e12833cb7b74998bb104d4dff1ecccf2534fbfbd1084c63"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/structural_init.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/structural_init.py",
+      "sha256": "983a9c36b51628ef95bc5d5c9062aa14fd0ae99b1592cba11f14a2e33f8f6588"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/train_ablation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/train_ablation.py",
+      "sha256": "65b9dbad59f102a50daf1c47cb69342e1395a04742d6e2af6a7ec5c2624c49c4"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/reference_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/reference_model.py",
+      "sha256": "6ed7c0e0b3c13ec24780bf701a8dcab6b96cae0f4259aaa92ed46fb1aeefc818"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/expected_initialization.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/expected_initialization.json",
+      "sha256": "9f72be2abb4d4ba36d3bbc8031d2f63fda81983b8e5417c98e14ca9c65ae5d5f"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/parent_bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/parent_bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/cache_v2/engine.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/cache_v2/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/cache_v2/manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/cache_v2/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/cache_v2/input_cache.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/cache_v2/verify.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/cache_v2/validate_full.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/provenance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/results.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/gpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/runner.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/registry.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/progress.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/config.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/dashboard.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/cli.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/statistics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/paperlab/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/test_cpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/gpu_map.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/gpu_map.json",
+      "sha256": "923207fa5185b0e7f3c7f049099a141ddd76cbd06d90d19a7b6ca6492552b5a6"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/model.py",
+      "sha256": "2509d74a060cbe48120ff4babc3976e905cf051738e4a0360dd2925a83d8b30f"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/protocol.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/preflight.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/encode_text.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/launch.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/train.py",
+      "sha256": "6b2486046488c93f3bbe2c7ba499d944f2fa7eaf322a38680a797d19d27d46e9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/campaign/prompts.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/campaign/prompts.json",
+      "sha256": "e9ee03cb671be9529f75a40d991c8e6ff0f836e447e58726c55a234c01ca1583"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/inference.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/configs.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/checkpoint.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/text/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/text/bank.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/segmentation_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/task_encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/transunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/dense_guidance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/layers.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/swinunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/sammed2d_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/decoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/models/lvit_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/visualization/export_visual_token_states.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/visualization/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/training/memory.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/training/augmentations.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/training/losses.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/training/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/training/prototypes.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/training/evaluation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/training/metrics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/tasksegment/training/trainer.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_summary_seed2026/source/bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_summary_seed2026/source/bundle_manifest.json",
+      "sha256": "b97df42fc19ce29b889e7698c474787034a1624abe379a6c57a6ea4d528d0d83"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/expected_initialization.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/expected_initialization.json",
+      "sha256": "5db25cb3a7621b9dd27b5ec6ede671716de49acd56e13895503d7b638cf62422"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/structural_init.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/structural_init.py",
+      "sha256": "983a9c36b51628ef95bc5d5c9062aa14fd0ae99b1592cba11f14a2e33f8f6588"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/expected_visual_initialization.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/expected_visual_initialization.json",
+      "sha256": "232e44485aca6bbe531301472064819813923c532a0c4da78ed6f18ae7edfef1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/train_ablation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/train_ablation.py",
+      "sha256": "76b5fe539c4a12cd057b88038bea527f728d8f467aeadcb3e8f254ea72ad5ff8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/parent_bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/parent_bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/cache_v2/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/cache_v2/manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/cache_v2/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/cache_v2/validate_full.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/cache_v2/engine.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/cache_v2/input_cache.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/cache_v2/verify.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/checkpoint.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/inference.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/configs.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/text/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/text/bank.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/training/metrics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/training/evaluation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/training/trainer.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/training/prototypes.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/training/memory.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/training/losses.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/training/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/training/augmentations.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/transunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/swinunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/decoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/segmentation_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/lvit_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/task_encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/sammed2d_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/dense_guidance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/models/layers.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/visualization/export_visual_token_states.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/tasksegment/visualization/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/results.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/config.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/cli.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/statistics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/progress.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/provenance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/registry.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/gpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/runner.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/paperlab/dashboard.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/campaign/test_cpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/campaign/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/campaign/train.py",
+      "sha256": "d126a12fa020037e0445f13a2e2e293ef8558d6daf44d7fedc0b549fe5844070"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/campaign/protocol.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/campaign/gpu_map.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/campaign/gpu_map.json",
+      "sha256": "923207fa5185b0e7f3c7f049099a141ddd76cbd06d90d19a7b6ca6492552b5a6"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/campaign/encode_text.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/campaign/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/campaign/model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/campaign/model.py",
+      "sha256": "b2cac7af290ddc0d7b136571cc8b7348ae70da8cff9271b638cab4f9232afdd1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/campaign/launch.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/campaign/preflight.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed3407/source/bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed3407/source/bundle_manifest.json",
+      "sha256": "c56cf8a36ce6825844771d1b5d78e92a164d03021a3009b120afa36f38c08b3a"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/train_ablation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/train_ablation.py",
+      "sha256": "76b5fe539c4a12cd057b88038bea527f728d8f467aeadcb3e8f254ea72ad5ff8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/structural_init.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/structural_init.py",
+      "sha256": "983a9c36b51628ef95bc5d5c9062aa14fd0ae99b1592cba11f14a2e33f8f6588"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/expected_initialization.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/expected_initialization.json",
+      "sha256": "d703aa3bd6680831051c69e75d278d4097f0f6b5247bc5205933a0cb02f79bf2"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/parent_bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/parent_bundle_manifest.json",
+      "sha256": "7f7bb86ed0918108fa8e7af7ce4da32595e3f777b8a353df4662d63b58dadeba"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/expected_visual_initialization.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/expected_visual_initialization.json",
+      "sha256": "232e44485aca6bbe531301472064819813923c532a0c4da78ed6f18ae7edfef1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/campaign/encode_text.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/campaign/encode_text.py",
+      "sha256": "9331beb53abdd3f2fed0d8f1597d7723b0a3b28f12ef3ce4f4729777e1e3c100"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/campaign/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/campaign/train.py",
+      "sha256": "d126a12fa020037e0445f13a2e2e293ef8558d6daf44d7fedc0b549fe5844070"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/campaign/launch.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/campaign/launch.py",
+      "sha256": "1f32913069e2f10d045e36ff5987f3e9c469e23c85d3cbc2b33f1303b5cacb84"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/campaign/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/campaign/__init__.py",
+      "sha256": "93d179c5d99afe0a4e412ab0b8e1ca563ce71b7e4b38cf558168f15108fa7597"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/campaign/protocol.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/campaign/protocol.json",
+      "sha256": "9eb44a8c32bd8639bbdd53379e0b651e6ec2c4aa143e07f7e6bbeb5843039201"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/campaign/gpu_map.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/campaign/gpu_map.json",
+      "sha256": "923207fa5185b0e7f3c7f049099a141ddd76cbd06d90d19a7b6ca6492552b5a6"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/campaign/preflight.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/campaign/preflight.py",
+      "sha256": "5f2b58c55235d8eca8a7e9c70e6c58389d2cd2daa010b21c01b6004dd0b69962"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/campaign/test_cpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/campaign/test_cpu.py",
+      "sha256": "54745f67b03b04d08a12b60e6c889648fd4c2d4de75aa515a3018e56c8519c26"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/campaign/model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/campaign/model.py",
+      "sha256": "b2cac7af290ddc0d7b136571cc8b7348ae70da8cff9271b638cab4f9232afdd1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/results.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/results.py",
+      "sha256": "ce0f6ac4ecb4287245395e08d2a85d29349e8180d9817bdae44be9b046f9d463"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/__init__.py",
+      "sha256": "8cfeb8fe3593ce71db6a4d0547c799ae447c89a76b313060f8d1489519e7065a"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/cli.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/cli.py",
+      "sha256": "a73826684dbb7ff79cdbbfdf108a9276a2c0d42d41df81d5617225b42621af7c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/statistics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/statistics.py",
+      "sha256": "8c700c33a5313fedd2e54ff50aaa4d1fd8fd013c94866989b038af72506a5fc8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/dashboard.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/dashboard.py",
+      "sha256": "5d2fab4fa35e2106b00dd8091b6b565e13eca909a438d77a55375d0bd6bf5982"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/runner.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/runner.py",
+      "sha256": "b5a864836528687a5065af67ba37f8c2f55c18fe48026b2d6763e2355d8bc1dc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/registry.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/registry.py",
+      "sha256": "b2c5b4544eeb2600724053a87cf3903e6cdb238e4785b2a2ca5d53dfed778b7b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/progress.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/progress.py",
+      "sha256": "0c10b430c987afe1ed7d13b39d40a94d653752813077896f5694d27fcf09db8b"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/provenance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/provenance.py",
+      "sha256": "2c07a9d95e110d412b99c48505893ba23e9618ea2bb8fa58a0ac83f159d0e902"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/config.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/config.py",
+      "sha256": "addbc65072c1c74352b946e8e1251dc84f56fc30e9deb75ccfdd7a40a4e816bc"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/paperlab/gpu.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/paperlab/gpu.py",
+      "sha256": "1bc7d5e01f9bb6222a2cfccad1b7c823345a5d1e9436b04c60c9c2db8cb6bc30"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/cache_v2/manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/cache_v2/manifest.json",
+      "sha256": "501269b639cc7234b2dd43f57c4d853892d87f103c802bb0e05f71fab8367516"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/cache_v2/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/cache_v2/__init__.py",
+      "sha256": "2d58e8f0dba21e5950dc41bff46a5f9f7dec9ea980d584bae4f971f2e8e3b827"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/cache_v2/train.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/cache_v2/train.py",
+      "sha256": "1406823185d8d523ec85ce8da9e1431ecf50bcc64a6eaa59f3e72778097cba98"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/cache_v2/verify.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/cache_v2/verify.py",
+      "sha256": "20915bfd867ef65987edc56f77fa429bc9c016a165951e3c29af467aea515bda"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/cache_v2/validate_full.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/cache_v2/validate_full.py",
+      "sha256": "f1b99f13d8ffe08e030d5527cb9f0e2e512e0b9e0a92fe0d5e93244751e2b58e"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/cache_v2/input_cache.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/cache_v2/input_cache.py",
+      "sha256": "8c468af0169e90f0d05732cdccd33c6d47e40bd4efb37e99ad653a459f390223"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/cache_v2/engine.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/cache_v2/engine.py",
+      "sha256": "0fb709ac70e918eba7282c19ed753271604e8cdf9c6476eef7018de7abc0ec71"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/__init__.py",
+      "sha256": "b781fa5bb92fe2847034f3928f14a91d091f4f4604dec4e31e8a49397d113593"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/configs.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/configs.py",
+      "sha256": "9c16d7826b2b03f54d83f09df3b01652667f7b12f8fd60cb86cf2637ddb6670f"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/checkpoint.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/checkpoint.py",
+      "sha256": "9bcb9cc106fe8e5714f5491f46572ea97e0bb5a8e5c37d59652c7b9ce16607e9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/inference.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/inference.py",
+      "sha256": "b76c2af09b08f1a9740b2cfbc6f9a5811f6c00aca09178e7d8a0a36cde96c3b5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/visualization/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/visualization/__init__.py",
+      "sha256": "9ef6ed15368a80cc8ef5a6e5910c678c1822b9148ca1992f415238fa44b7b047"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/visualization/export_visual_token_states.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/visualization/export_visual_token_states.py",
+      "sha256": "8bc0b31dfd76ecaf60dc19ca10fee7f3db8471b7b78190a76fec867031a89688"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/lvit_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/lvit_official.py",
+      "sha256": "72a0146f5742d82730364d94c05c933994188db7b77165cee28f9e3496c90f51"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/transunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/transunet_official.py",
+      "sha256": "7ab2300682a592e00adfbb47b5569051a77ebd6f9ce248f45ef26d82563156d3"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/segmentation_model.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/segmentation_model.py",
+      "sha256": "42355d6424b17d243393daf1444c9039cb906ecf39c168b42dc430b6c105b260"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/decoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/decoder.py",
+      "sha256": "205ede0c8abcd676a5c06ccd84e2d811e35c61c5ffa712a038a2dd8fc19679c5"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/dense_guidance.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/dense_guidance.py",
+      "sha256": "af6203ae6b171dc01e8f2238a3568280d9938d2cb083976b02b39247581e12e8"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/swinunet_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/swinunet_official.py",
+      "sha256": "217d8d8a1e649aef3bf8df2d2ac8c8f1fb1434b0782f228cb04724faab5797b7"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/encoder.py",
+      "sha256": "df3781b5c836f060eaaafa62d67758e95f3e19280c85a7ec543d5557bcecc623"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/sammed2d_official.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/sammed2d_official.py",
+      "sha256": "d1fdf977a69b359c91df4178dc4b8c348bffd36046af57b0881c6076da620f91"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/layers.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/layers.py",
+      "sha256": "8a96f24922c3d03106422ccc70f63df8ff071fa46390a86fc3015ebb581515b9"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/__init__.py",
+      "sha256": "fcf248b5b6028229e4ce289b25e038e864610e9a64fc1f790b68a04eb251a37c"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/models/task_encoder.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/models/task_encoder.py",
+      "sha256": "6e2d89eaa18f406bbe486ed24eb5735972481155048b7e9f66bb341b723cd979"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/training/augmentations.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/training/augmentations.py",
+      "sha256": "86c82b815c538367e1c5107cb9269412f0480490c3c95c0f2d2a0c763274cb18"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/training/metrics.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/training/metrics.py",
+      "sha256": "61be94e564afdfdd3f914af27188865c2bec4cc6ca23a35ad550bb4100067c1d"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/training/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/training/__init__.py",
+      "sha256": "e1e88c9d1140b7e33368a5decdbe41b87d33d9d12466b682be4cbd92859953c2"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/training/losses.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/training/losses.py",
+      "sha256": "2c616e956ba07e7b0f277bcd990ee9273e5306c9c0a3d9900f7f2d446d536d94"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/training/memory.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/training/memory.py",
+      "sha256": "92056be1790c385dc150dfda0871122a88d54fa738a0b6c19f6b4d35198abafa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/training/trainer.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/training/trainer.py",
+      "sha256": "9ddc9c9d6722b3700d153c09df661750647e27fb37b42363135c4663dfd574fa"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/training/prototypes.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/training/prototypes.py",
+      "sha256": "4dccbad93177dc6dec67e76bcd5c918253a33f82c096a73d8074be53daee6946"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/training/evaluation.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/training/evaluation.py",
+      "sha256": "876724d271262054f16d69b8e815c85ae48ac4fae2f4add317c0d8c18a3568cb"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/text/bank.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/text/bank.py",
+      "sha256": "90b7b1d3b9c65edb5a419cea60778362757c2016f648a6195a1453956eba07d1"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/tasksegment/text/__init__.py",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/tasksegment/text/__init__.py",
+      "sha256": "e7d3ce69ed39766cabe2936033207158170c28b98157639d00961f26aff2e111"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs/F_remove_all_text_seed2026/source/bundle_manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs/F_remove_all_text_seed2026/source/bundle_manifest.json",
+      "sha256": "f75be659234e8315dc2ffeecbcbaa6087a8c989abed842108c63e97c1bd577f4"
+    },
+    {
+      "path": "ablations/core_three_seeds/common.py",
+      "origin": "ablation_768_three_seeds_20261104/common.py",
+      "sha256": "526a00ab22a61a5afdc371e8cb22638ea6b5d33daa407a8222cd4ab69d5ede47"
+    },
+    {
+      "path": "ablations/core_three_seeds/controller.py",
+      "origin": "ablation_768_three_seeds_20261104/controller.py",
+      "sha256": "0e4603777b5450614c5c6b815739820ed5a131010b48df930ba655e7a221f477"
+    },
+    {
+      "path": "ablations/core_three_seeds/cpu_audit_job.py",
+      "origin": "ablation_768_three_seeds_20261104/cpu_audit_job.py",
+      "sha256": "aafb604ca263d91406967bf1af44380f712f490832cf0450822477fe141a81c4"
+    },
+    {
+      "path": "ablations/core_three_seeds/evaluate_f.py",
+      "origin": "ablation_768_three_seeds_20261104/evaluate_f.py",
+      "sha256": "912bfcd78b8a51db0e9a5097506e3b089ccd9900c3c545007391d91c89ed977b"
+    },
+    {
+      "path": "ablations/core_three_seeds/evaluate_visual.py",
+      "origin": "ablation_768_three_seeds_20261104/evaluate_visual.py",
+      "sha256": "16cea33c127f1f65e113ebe7d255156fd90c1836574a9c4d97a7ac068f0cf8e4"
+    },
+    {
+      "path": "ablations/core_three_seeds/postprocess.py",
+      "origin": "ablation_768_three_seeds_20261104/postprocess.py",
+      "sha256": "9cfca2628471931a517ee6dc2aa23d6a748c7d4fbf3a8ac2de8b65dab958b2c2"
+    },
+    {
+      "path": "ablations/core_three_seeds/plot_ablation.py",
+      "origin": "ablation_768_three_seeds_20261104/plot_ablation.py",
+      "sha256": "83085e01857f94108535ad6d67a84840efcf4ff41d613fbcbfe95ef79b38e8e0"
+    },
+    {
+      "path": "experiments/unseen_organs/without_pn/collector.py",
+      "origin": "f_remove_dual_target_adapt_20261031_v3/collector.py",
+      "sha256": "04269257acf931115098dd1f093db2e19b9c8c73c0fd0f087579ca778eeaeafe"
+    },
+    {
+      "path": "experiments/unseen_organs/without_pn/controller.py",
+      "origin": "f_remove_dual_target_adapt_20261031_v3/controller.py",
+      "sha256": "a780fe8bf9bf05a04e1a251f36d4180a4bff0e34f4591d92890615b3767ad82c"
+    },
+    {
+      "path": "experiments/unseen_organs/without_pn/code/heart.py",
+      "origin": "f_remove_dual_target_adapt_20261031_v3/code/heart.py",
+      "sha256": "c7066e5a1071c264b715ea354227efc0555be797be6ae7afdb3cf5f03fb91739"
+    },
+    {
+      "path": "experiments/unseen_organs/without_pn/code/liver.py",
+      "origin": "f_remove_dual_target_adapt_20261031_v3/code/liver.py",
+      "sha256": "f53ee9d658ae22caea29f2282f49ef3370843fa20d09c1507925efe9fefdb8dd"
+    },
+    {
+      "path": "experiments/unseen_organs/without_pn/code/gallbladder.py",
+      "origin": "f_remove_dual_target_adapt_20261031_v3/code/gallbladder.py",
+      "sha256": "9f45fb98359a90226fbc0ebd37f7eb7bf38f4f33527c05fa9da7514da4ee9c46"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/primary_gallbladder.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/primary_gallbladder.py",
+      "sha256": "0fd90a6c6ef481820bad3ebce27bb820008cf77d8d65835a2a40a065b12df63a"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/controller.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/controller.py",
+      "sha256": "ecc1e571ce0107f46bad737b56adb65dc0febc7e819c3d1d02498ad57292bf76"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/extra_models.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/extra_models.py",
+      "sha256": "e4efb63e628e3fbd8c4c26a60093b225a5ae442eeab547ce205fa685ff6ac45d"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/child_exec.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/child_exec.py",
+      "sha256": "8015809c911d6dff45f2cb3835a36f625072dfa34ebc81f650891b776745c856"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/primary_liver.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/primary_liver.py",
+      "sha256": "0fd90a6c6ef481820bad3ebce27bb820008cf77d8d65835a2a40a065b12df63a"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/extra_liver.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/extra_liver.py",
+      "sha256": "eef828f4384629a2fd1bf185d9f8edddd31d5e4a67eee6d0bd37a10b56a4ccc0"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/extra_gallbladder.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/extra_gallbladder.py",
+      "sha256": "eef828f4384629a2fd1bf185d9f8edddd31d5e4a67eee6d0bd37a10b56a4ccc0"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/primary_heart.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/primary_heart.py",
+      "sha256": "b39269086e06b99082e51ade7e5f4000fa94c27e584ffe592778935b13b73b8d"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/extra_heart.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/extra_heart.py",
+      "sha256": "eef828f4384629a2fd1bf185d9f8edddd31d5e4a67eee6d0bd37a10b56a4ccc0"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/code/watchdog.py",
+      "origin": "old_three_source_transfer_20261102_v1/code/watchdog.py",
+      "sha256": "3e8366bf5fbfc84fcbf3e47bf67ac14ccad3cc1f2a516c7b77a77d4b0c4e9441"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/protocols/protocol_gallbladder.json",
+      "origin": "old_three_source_transfer_20261102_v1/protocols/protocol_gallbladder.json",
+      "sha256": "c2d981355a35994998c0b8c58427320220e34a36223c4c4d9b6030c240b9d684"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/protocols/protocol_liver.json",
+      "origin": "old_three_source_transfer_20261102_v1/protocols/protocol_liver.json",
+      "sha256": "b8a279cfffe9f73ad71d61d069944f3021c3edcdeb793c19e5e7a49d3e5cb151"
+    },
+    {
+      "path": "experiments/unseen_organs/old_recipe_three_source/protocols/protocol_heart.json",
+      "origin": "old_three_source_transfer_20261102_v1/protocols/protocol_heart.json",
+      "sha256": "8c6c62e1fda267674c6121d7d203ce1f09240881a7b2a0e8ef725a575b2e9e9a"
+    },
+    {
+      "path": "experiments/unseen_organs/without_pn_k8/code/dual8_controller.py",
+      "origin": "old_remove_dual_k8_seed42_20261102_v1/code/dual8_controller.py",
+      "sha256": "b7eaa85bc69d0648e844543e70367a88eb6d8ddcb51c9715c2391a4ac912645e"
+    },
+    {
+      "path": "experiments/unseen_organs/without_pn_k8/code/dual8_gallbladder.py",
+      "origin": "old_remove_dual_k8_seed42_20261102_v1/code/dual8_gallbladder.py",
+      "sha256": "3f8f12f158cafbd14056b39aef0502d946c9316f5d445851abdc88049088460c"
+    },
+    {
+      "path": "experiments/unseen_organs/without_pn_k8/code/dual8_liver.py",
+      "origin": "old_remove_dual_k8_seed42_20261102_v1/code/dual8_liver.py",
+      "sha256": "3f8f12f158cafbd14056b39aef0502d946c9316f5d445851abdc88049088460c"
+    },
+    {
+      "path": "experiments/unseen_organs/without_pn_k8/code/dual8_heart.py",
+      "origin": "old_remove_dual_k8_seed42_20261102_v1/code/dual8_heart.py",
+      "sha256": "f82021afc2e48daa1baafb6bc685f0cc885a93e9b1b9423c7811f38403e159c6"
+    },
+    {
+      "path": "ablations/core_three_seeds/jobs.json",
+      "origin": "ablation_768_three_seeds_20261104/jobs.json",
+      "sha256": "9b0b9d69f82d0266a39da193d9383cc5e659761245d651edbee1b1f1b57eaa46"
+    },
+    {
+      "path": "ablations/core_three_seeds/reused_results.json",
+      "origin": "ablation_768_three_seeds_20261104/reused_results.json",
+      "sha256": "0d79b6dde5758bbe9e2ca2855ca3e09d6f2e90d0e08fbfe06df4945c1c11a042"
+    },
+    {
+      "path": "ablations/core_three_seeds/manifest.json",
+      "origin": "ablation_768_three_seeds_20261104/manifest.json",
+      "sha256": "9354da8d65c8ebb1f47c0abc1dec2435188a21411aeb59a20ce2b7a9e8a9edd7"
+    }
+  ],
+  "source_only": true,
+  "remote_operations": "Read source bytes and manifests only; no CUDA, scheduling, training or inference",
+  "publication_scope": "Selected paper source code only; non-code outputs and unrelated historical experiments omitted"
+}

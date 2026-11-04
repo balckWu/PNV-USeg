@@ -1,0 +1,86 @@
+{
+  "name": "LUS7Seg_unseen_gallbladder_support_and_adaptation_v1",
+  "created_date": "2026-10-27",
+  "status": "fixed_before_first_LUS_model_test",
+  "dataset": "LUS-7Seg version 1, original manually annotated PNG masks",
+  "dataset_revision": "10.17632/cwc37g672d.1",
+  "target": "gallbladder",
+  "source_training_anatomies": [
+    "thyroid",
+    "breast",
+    "ovary",
+    "prostate"
+  ],
+  "source_checkpoint_seed": 42,
+  "source_checkpoint_selection": "existing source-domain validation-selected checkpoint; no target test selection",
+  "patient_split": "new seed20261027 patient split: 1690/242/483 across full dataset; eligible organ counts in manifest",
+  "support_K": [
+    4,
+    16
+  ],
+  "support_draw_seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "support_sampling": "sample16 eligible training patients; first4 nested K4; one fixed image per patient",
+  "label_budget": "exactly K images from K patients used for support and adaptation; no extra target validation labels for selection",
+  "test": "all 392 eligible held-out patients; one preselected image each",
+  "validation": "official validation split excluded; not used to select adaptation settings",
+  "primary_models": [
+    "F",
+    "iris2d",
+    "unet",
+    "transunet_pretrained",
+    "paper_US_adapter"
+  ],
+  "additional_frozen_baselines": [
+    "unetpp",
+    "swinunet_official"
+  ],
+  "paper_US_adapter": "strict load original model; new task text; unseen-domain identity residual disabled; group residual retained; source text-centering direction fixed",
+  "paper_US_skip_rule": "if original frozen BioBERT encoder assets are unavailable, record unsupported method without inventing text vectors",
+  "no_weight_update": "F/Iris/paper adapter use K labelled target supports; plain baselines receive no target supports and are descriptive target-free references",
+  "adaptation": {
+    "optimizer": "AdamW",
+    "lr": 1e-05,
+    "weight_decay": 0.0001,
+    "optimizer_updates": 100,
+    "query_images_per_update": 2,
+    "gradient_accumulation": 2,
+    "support_queries_disjoint": true,
+    "support_images_per_microstep": "up to 4 of the K labelled images, excluding the one query image",
+    "loss": "one CE plus one foreground soft Dice; no model-specific auxiliary losses",
+    "gradient_clip": 5.0,
+    "amp": true,
+    "checkpoint_selection": "last update only, no target validation/test selection",
+    "augmentation": "existing generic medical augmentation; matched query seed across architectures"
+  },
+  "input_size": [
+    512,
+    512
+  ],
+  "metric_size": [
+    512,
+    512
+  ],
+  "normalization": "original per-image z-score, clamp +/-5, divide by 5",
+  "threshold": 0.5,
+  "postprocessing": false,
+  "evaluation_precision": "float32",
+  "primary_aggregation": "one fixed test image per patient, mean over all eligible test patients",
+  "metrics": [
+    "Dice",
+    "IoU",
+    "HD95 in resized pixels"
+  ],
+  "pretraining_caveat": "medical foundation-model exposure to CAMUS must be audited before clean unseen-organ claims; SAM-Med2D not in primary controlled table",
+  "hardware": {
+    "physical_gpu": 6,
+    "forbidden_physical_gpu": 3
+  },
+  "reporting": "all predefined models, K and support draws for both organs; no model-driven image selection or test-based tuning",
+  "image_selection": "one annotated image per patient per organ, minimum SHA256(organ|archive-relative stem); no image-quality or model-based selection",
+  "source_archive_sha256": "edde42182d385da431dbe71d863e1a69520b10ec8b0efcdcbf07888cc0deda40",
+  "official_split": false
+}

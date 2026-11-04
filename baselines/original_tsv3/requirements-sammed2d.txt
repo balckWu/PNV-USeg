@@ -1,0 +1,8 @@
+# Install into a cloned environment, not the environment of a running experiment.
+huggingface-hub>=0.23,<2
+tqdm>=4.66
+numpy>=1.24
+Pillow>=9.5
+scipy>=1.10
+opencv-python-headless>=4.8
+matplotlib>=3.7

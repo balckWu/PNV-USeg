@@ -1,0 +1,26 @@
+{
+  "task": "left ventricular cavity segmentation in cardiac ultrasound",
+  "F": {
+    "positive": [
+      "The blood pool inside the left ventricular cavity of the heart.",
+      "The complete left ventricular lumen enclosed by its endocardial border.",
+      "The left ventricular cavity extending from the mitral valve plane to the cardiac apex.",
+      "The patient-specific interior region of the left ventricle in an apical ultrasound view."
+    ],
+    "negative": [
+      "The myocardial wall outside the left ventricular endocardial border.",
+      "The left atrial cavity beyond the mitral valve plane.",
+      "The right ventricular cavity and right-sided cardiac chambers.",
+      "Pericardium, surrounding tissue and ultrasound background outside the left ventricular cavity."
+    ],
+    "summary": "Segment the complete left ventricular blood pool enclosed by the endocardial contour in an apical cardiac ultrasound image. Follow the ventricular cavity from the mitral valve plane to the apex; myocardial wall, atrial cavities and other chambers are outside the target."
+  },
+  "paper_US": {
+    "target": ["The segmentation target is the complete left ventricular cavity, representing the blood pool enclosed by the endocardium."],
+    "appearance": ["In cardiac ultrasound the left ventricular cavity is a relatively dark blood-filled region bounded by the brighter myocardial wall, with patient-specific shape and variable acoustic appearance."],
+    "boundary": ["Follow the left ventricular endocardial border from the mitral valve plane toward the apex and back along the opposite wall."],
+    "exclusion": ["Exclude the myocardial wall, left atrium beyond the mitral valve plane, right ventricular cavity, pericardium and surrounding ultrasound background."],
+    "domain_identity": ["Apical two-dimensional cardiac ultrasound of the left ventricular cavity."]
+  },
+  "policy": "Anatomical descriptions fixed before model testing; no query-specific labels, diagnoses or result-driven prompt search."
+}

@@ -1,0 +1,36 @@
+{
+  "task": "liver segmentation in hepatobiliary ultrasound",
+  "F": {
+    "positive": [
+      "The visible liver parenchyma in an abdominal ultrasound image.",
+      "The hepatic tissue enclosed by the visible liver capsule.",
+      "The patient-specific visible liver tissue in a hepatobiliary ultrasound standard plane.",
+      "The liver parenchymal region including its internal tissue texture."
+    ],
+    "negative": [
+      "The gallbladder lumen and gallbladder wall are outside the liver parenchyma target.",
+      "The kidney, abdominal wall, bowel and surrounding non-hepatic tissue.",
+      "The dark ultrasound background outside the visible liver.",
+      "Adjacent organs and tissue beyond the visible hepatic contour."
+    ],
+    "summary": "Segment the visible liver parenchyma in the abdominal ultrasound image, following its visible hepatic contour. Exclude the gallbladder, kidney, abdominal wall, bowel and background outside the visible liver."
+  },
+  "paper_US": {
+    "target": [
+      "The segmentation target is the visible liver parenchyma in an abdominal ultrasound image."
+    ],
+    "appearance": [
+      "Liver parenchyma has a patient-specific granular echotexture and variable brightness in hepatobiliary ultrasound."
+    ],
+    "boundary": [
+      "Follow the visible hepatic capsule and the contour separating liver parenchyma from surrounding tissue."
+    ],
+    "exclusion": [
+      "Exclude the gallbladder lumen and wall, kidney, bowel, abdominal wall and background outside the visible liver."
+    ],
+    "domain_identity": [
+      "Two-dimensional hepatobiliary ultrasound of the liver parenchyma."
+    ]
+  },
+  "policy": "Fixed before first LUS model test; same source encoders; no prompt search"
+}

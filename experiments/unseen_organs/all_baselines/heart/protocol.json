@@ -1,0 +1,91 @@
+{
+  "name": "heart_five_additional_fewshot_baselines_supplement_20261027",
+  "created_date": "2026-10-27",
+  "status": "supplement_fixed_after_original_models_completed_before_new_model_evaluations",
+  "dataset": "CAMUS_public NIfTI rerelease, manual ED/ES frames, verified MedOtter parquet conversion",
+  "dataset_revision": "6120b33470ab6af797c82922ab1f7e2262a36815",
+  "target": "left ventricular cavity; raw label == 1",
+  "source_training_anatomies": [
+    "thyroid",
+    "breast",
+    "ovary",
+    "prostate"
+  ],
+  "source_checkpoint_seed": 42,
+  "source_checkpoint_selection": "existing source-domain validation-selected checkpoint; no target test selection",
+  "patient_split": "official subgroup_training/validation/testing; 400/50/50; disjoint patients",
+  "support_K": [
+    4,
+    16
+  ],
+  "support_draw_seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "support_sampling": "sample 16 official training patients without replacement; first 4 form nested K=4; one 4CH ED frame per selected patient",
+  "label_budget": "exactly K images from K patients used for support and adaptation; no extra target validation labels for selection",
+  "test": "all 50 official test patients, both 2CH/4CH views and ED/ES manual frames; 200 frames",
+  "validation": "official validation split excluded; not used to select adaptation settings",
+  "primary_models": [
+    "unetpp",
+    "swinunet_official",
+    "clipseg_official",
+    "lvit_native224",
+    "sammed2d_promptfree"
+  ],
+  "additional_frozen_baselines": [],
+  "paper_US_adapter": "strict load original model; new task text; unseen-domain identity residual disabled; group residual retained; source text-centering direction fixed",
+  "paper_US_skip_rule": "if original frozen BioBERT encoder assets are unavailable, record unsupported method without inventing text vectors",
+  "no_weight_update": "F/Iris/paper adapter use K labelled target supports; plain baselines receive no target supports and are descriptive target-free references",
+  "adaptation": {
+    "optimizer": "AdamW",
+    "lr": 1e-05,
+    "weight_decay": 0.0001,
+    "optimizer_updates": 100,
+    "query_images_per_update": 2,
+    "gradient_accumulation": 2,
+    "support_queries_disjoint": true,
+    "support_images_per_microstep": "up to 4 of the K labelled images, excluding the one query image",
+    "loss": "one CE plus one foreground soft Dice; no model-specific auxiliary losses",
+    "gradient_clip": 5.0,
+    "amp": true,
+    "checkpoint_selection": "last update only, no target validation/test selection",
+    "augmentation": "existing generic medical augmentation; matched query seed across architectures"
+  },
+  "input_size": [
+    512,
+    512
+  ],
+  "metric_size": [
+    512,
+    512
+  ],
+  "normalization": "Original per-model input: z-score/clamp5/divide5 for U-Net++/Swin; raw grayscale [0,1] for CLIPSeg/LViT/SAM, followed by original adapter normalization",
+  "threshold": 0.5,
+  "postprocessing": false,
+  "evaluation_precision": "float32",
+  "primary_aggregation": "mean of four manual frame metrics within patient, then mean of 50 patients",
+  "metrics": [
+    "Dice",
+    "IoU",
+    "HD95 in resized pixels"
+  ],
+  "pretraining_caveat": "SAM-Med2D target organ/patient exposure is not certified absent; report as external-medical-pretraining reference, not clean unseen-to-pretraining claim",
+  "hardware": {
+    "physical_gpu": 6,
+    "forbidden_physical_gpu": 3
+  },
+  "reporting": "All five models, all three organs, K4/K16 and three support draws; 90 settings. No target-test tuning or choosing best draw.",
+  "existing_data_directory": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/data/camus_lv512",
+  "parent_protocol_sha256": "8c6c62e1fda267674c6121d7d203ce1f09240881a7b2a0e8ef725a575b2e9e9a",
+  "exact_parent_supports": true,
+  "exact_parent_test_patients": true,
+  "original_test_results_already_known": true,
+  "target_text_prompt": "the left ventricular cavity in an ultrasound image",
+  "model_resolution": {
+    "lvit_native224": 224,
+    "others": 512
+  },
+  "trainable_policy": "Retain original adaptation policy: CLIPSeg decoder; SAM image adapters/no-mask embedding/mask decoder; remaining models all original trainable parameters"
+}

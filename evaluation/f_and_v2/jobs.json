@@ -1,0 +1,70 @@
+[
+  {
+    "id": "F_seed3407",
+    "family": "F",
+    "seed": 3407,
+    "phase": 1,
+    "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_extra_seeds_20261027",
+    "run": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_extra_seeds_20261027/runs/F/seed_3407",
+    "training_pid": 3777889,
+    "source_manifest_sha256": "d71df8cc1593e99448129f1a86264f398fd70536cdab54b4442ee69d14fe920e"
+  },
+  {
+    "id": "F_seed2026",
+    "family": "F",
+    "seed": 2026,
+    "phase": 1,
+    "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_extra_seeds_20261027",
+    "run": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/f_extra_seeds_20261027/runs/F/seed_2026",
+    "training_pid": 3777894,
+    "source_manifest_sha256": "d71df8cc1593e99448129f1a86264f398fd70536cdab54b4442ee69d14fe920e"
+  },
+  {
+    "id": "no_text_v2_seed42",
+    "family": "v2",
+    "seed": 42,
+    "phase": 1,
+    "source": "/tank/wk/US-TextSeg/experiments/no_text_branch_v2_20261026",
+    "run": "/tank/wk/US-TextSeg/experiments/no_text_branch_v2_20261026/runs/tasksegment_no_text_conditioning_v2/seed_42",
+    "training_pid": 3737233,
+    "source_manifest_sha256": "939113599d84ced383122845b63bea68c8d76c85ebb6a46003c6effb1d81050c"
+  },
+  {
+    "id": "no_text_v2_seed3407",
+    "family": "v2",
+    "seed": 3407,
+    "phase": 1,
+    "source": "/tank/wk/US-TextSeg/experiments/no_text_branch_v2_20261026",
+    "run": "/tank/wk/US-TextSeg/experiments/no_text_branch_v2_20261026/runs/tasksegment_no_text_conditioning_v2/seed_3407",
+    "training_pid": 3760854,
+    "source_manifest_sha256": "939113599d84ced383122845b63bea68c8d76c85ebb6a46003c6effb1d81050c"
+  },
+  {
+    "id": "no_text_v2_seed2026",
+    "family": "v2",
+    "seed": 2026,
+    "phase": 1,
+    "source": "/tank/wk/US-TextSeg/experiments/no_text_branch_v2_20261026",
+    "run": "/tank/wk/US-TextSeg/experiments/no_text_branch_v2_20261026/runs/tasksegment_no_text_conditioning_v2/seed_2026",
+    "training_pid": 3763473,
+    "source_manifest_sha256": "939113599d84ced383122845b63bea68c8d76c85ebb6a46003c6effb1d81050c"
+  },
+  {
+    "id": "F_positive_only",
+    "family": "F",
+    "seed": 42,
+    "phase": 2,
+    "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/ablations/positive_only",
+    "run": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/ablations/positive_only/runs/F/seed_42",
+    "source_manifest_sha256": "fce72eef15f95fb5c86c99e82dfc74ea459fb21c25dfd0520d87f5670dd86911"
+  },
+  {
+    "id": "F_negative_only",
+    "family": "F",
+    "seed": 42,
+    "phase": 2,
+    "source": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/ablations/negative_only",
+    "run": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/final_tests_and_f_ablation_20261028/ablations/negative_only/runs/F/seed_42",
+    "source_manifest_sha256": "9ea0d672821aa3510ed303748a288da6067c795179296cbf206d820fda6d17af"
+  }
+]

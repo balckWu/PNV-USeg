@@ -1,0 +1,6 @@
+{
+  "expected_initial_sha256": "64ac5f705537d03d7556e9e49ce9328a2fd0034a692ce34c442db5e689fa6fe2",
+  "parameters": 60878344,
+  "parent_shared_tensor_initialization_audited": true,
+  "no_text_or_pretrained_weights_read": true
+}

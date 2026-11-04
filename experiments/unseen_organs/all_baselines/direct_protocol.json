@@ -1,0 +1,44 @@
+{
+  "name": "all_ten_models_zero_target_labels_20261027",
+  "created_date": "2026-10-27",
+  "source_checkpoint_seed": 42,
+  "target_label_budget": 0,
+  "target_train_or_validation_images_used": false,
+  "target_masks_used_for_prediction": false,
+  "weight_updates": 0,
+  "source_prior_models": [
+    "F",
+    "iris2d",
+    "paper_US_adapter"
+  ],
+  "source_prior_rule": "equal arithmetic mean of all six saved source-domain visual prototype tensors; never select domain/prior by target tests",
+  "source_prior_variant_label": "source-domain prototype transfer; not native support-free architecture",
+  "language_information": "fixed organ/task text allowed, encoded with each original frozen text encoder; no text derived from target images/masks",
+  "plain_model_frozen_reuse": [
+    "transunet_pretrained",
+    "unet",
+    "unetpp",
+    "swinunet_official"
+  ],
+  "new_direct_models": [
+    "F",
+    "iris2d",
+    "paper_US_adapter",
+    "clipseg_official",
+    "lvit_native224",
+    "sammed2d_promptfree"
+  ],
+  "physical_gpu": 6,
+  "physical_gpu_uuid": "GPU-dc2317c7-139f-d155-c749-9216d85b13d4",
+  "forbidden_gpu": 3,
+  "metric_grid": [
+    512,
+    512
+  ],
+  "evaluation_precision": "float32",
+  "threshold": 0.5,
+  "postprocessing": false,
+  "sam_prompt_policy": "prompt_free; no ground-truth point, box or mask prompt",
+  "sam_pretraining_exposure": "not certified absent; label external medical pretraining reference",
+  "supplement_disclosure": "Added on user request after initial model results were known; rules frozen before first new K0 inference; retain all results"
+}

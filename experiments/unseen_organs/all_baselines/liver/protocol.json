@@ -1,0 +1,94 @@
+{
+  "name": "liver_five_additional_fewshot_baselines_supplement_20261027",
+  "created_date": "2026-10-27",
+  "status": "supplement_fixed_after_original_models_completed_before_new_model_evaluations",
+  "dataset": "LUS-7Seg version 1, original manually annotated PNG masks",
+  "dataset_revision": "10.17632/cwc37g672d.1",
+  "target": "liver",
+  "source_training_anatomies": [
+    "thyroid",
+    "breast",
+    "ovary",
+    "prostate"
+  ],
+  "source_checkpoint_seed": 42,
+  "source_checkpoint_selection": "existing source-domain validation-selected checkpoint; no target test selection",
+  "patient_split": "new seed20261027 patient split: 1690/242/483 across full dataset; eligible organ counts in manifest",
+  "support_K": [
+    4,
+    16
+  ],
+  "support_draw_seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "support_sampling": "sample16 eligible training patients; first4 nested K4; one fixed image per patient",
+  "label_budget": "exactly K images from K patients used for support and adaptation; no extra target validation labels for selection",
+  "test": "all 481 eligible held-out patients; one preselected image each",
+  "validation": "official validation split excluded; not used to select adaptation settings",
+  "primary_models": [
+    "unetpp",
+    "swinunet_official",
+    "clipseg_official",
+    "lvit_native224",
+    "sammed2d_promptfree"
+  ],
+  "additional_frozen_baselines": [],
+  "paper_US_adapter": "strict load original model; new task text; unseen-domain identity residual disabled; group residual retained; source text-centering direction fixed",
+  "paper_US_skip_rule": "if original frozen BioBERT encoder assets are unavailable, record unsupported method without inventing text vectors",
+  "no_weight_update": "F/Iris/paper adapter use K labelled target supports; plain baselines receive no target supports and are descriptive target-free references",
+  "adaptation": {
+    "optimizer": "AdamW",
+    "lr": 1e-05,
+    "weight_decay": 0.0001,
+    "optimizer_updates": 100,
+    "query_images_per_update": 2,
+    "gradient_accumulation": 2,
+    "support_queries_disjoint": true,
+    "support_images_per_microstep": "up to 4 of the K labelled images, excluding the one query image",
+    "loss": "one CE plus one foreground soft Dice; no model-specific auxiliary losses",
+    "gradient_clip": 5.0,
+    "amp": true,
+    "checkpoint_selection": "last update only, no target validation/test selection",
+    "augmentation": "existing generic medical augmentation; matched query seed across architectures"
+  },
+  "input_size": [
+    512,
+    512
+  ],
+  "metric_size": [
+    512,
+    512
+  ],
+  "normalization": "Original per-model input: z-score/clamp5/divide5 for U-Net++/Swin; raw grayscale [0,1] for CLIPSeg/LViT/SAM, followed by original adapter normalization",
+  "threshold": 0.5,
+  "postprocessing": false,
+  "evaluation_precision": "float32",
+  "primary_aggregation": "one fixed test image per patient, mean over all eligible test patients",
+  "metrics": [
+    "Dice",
+    "IoU",
+    "HD95 in resized pixels"
+  ],
+  "pretraining_caveat": "SAM-Med2D target organ/patient exposure is not certified absent; report as external-medical-pretraining reference, not clean unseen-to-pretraining claim",
+  "hardware": {
+    "physical_gpu": 6,
+    "forbidden_physical_gpu": 3
+  },
+  "reporting": "All five models, all three organs, K4/K16 and three support draws; 90 settings. No target-test tuning or choosing best draw.",
+  "image_selection": "one annotated image per patient per organ, minimum SHA256(organ|archive-relative stem); no image-quality or model-based selection",
+  "source_archive_sha256": "edde42182d385da431dbe71d863e1a69520b10ec8b0efcdcbf07888cc0deda40",
+  "official_split": false,
+  "existing_data_directory": "/tank/wk/US-TextSeg/experiments/seed42_text_mechanisms_20261025/unseen_organs_20261027/lus7seg_20261027/liver/data",
+  "parent_protocol_sha256": "b8a279cfffe9f73ad71d61d069944f3021c3edcdeb793c19e5e7a49d3e5cb151",
+  "exact_parent_supports": true,
+  "exact_parent_test_patients": true,
+  "original_test_results_already_known": true,
+  "target_text_prompt": "the liver in an ultrasound image",
+  "model_resolution": {
+    "lvit_native224": 224,
+    "others": 512
+  },
+  "trainable_policy": "Retain original adaptation policy: CLIPSeg decoder; SAM image adapters/no-mask embedding/mask decoder; remaining models all original trainable parameters"
+}

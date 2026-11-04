@@ -1,0 +1,15 @@
+{
+  "seed": 2026,
+  "kind": "summary",
+  "reference_full_initial_sha256": "5f36fa32010446df79e82f1e2760b824e0b64d7ea5ef4e58a85cceb0d0550386",
+  "structural_initial_sha256": "2c8a3bc02de808eb41cb3678c0c25d8837268c1ba505b661ba74bdda9b52fbdb",
+  "parameters": 61709836,
+  "sliced_tensors": [
+    "sources.shared_codes",
+    "sources.task_codes",
+    "sources.medical_features"
+  ],
+  "all_retained_tensors_equal_to_same_seed_random_F": true,
+  "trained_weights_loaded": false,
+  "visual_runtime_reads_no_text_assets": false
+}

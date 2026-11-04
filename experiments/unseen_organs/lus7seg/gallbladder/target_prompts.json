@@ -1,0 +1,36 @@
+{
+  "task": "gallbladder segmentation in hepatobiliary ultrasound",
+  "F": {
+    "positive": [
+      "The visible gallbladder region in a hepatobiliary ultrasound image.",
+      "The fluid-containing gallbladder sac enclosed by its visible external contour.",
+      "The patient-specific gallbladder shape within the gallbladder ultrasound plane.",
+      "The complete visible gallbladder region including its lumen and thin wall."
+    ],
+    "negative": [
+      "The surrounding liver parenchyma outside the gallbladder contour.",
+      "Blood vessels and bile ducts that are separate from the gallbladder.",
+      "The kidney, bowel, abdominal wall and other adjacent organs.",
+      "The dark ultrasound background and tissue beyond the gallbladder boundary."
+    ],
+    "summary": "Segment the complete visible gallbladder region in hepatobiliary ultrasound, following its external contour and including its lumen and thin wall. Exclude surrounding liver tissue, separate vessels and bile ducts, kidney, bowel and background."
+  },
+  "paper_US": {
+    "target": [
+      "The segmentation target is the complete visible gallbladder region, including its lumen and thin wall."
+    ],
+    "appearance": [
+      "The gallbladder is typically a dark fluid-containing sac surrounded by brighter hepatic tissue in hepatobiliary ultrasound, with variable shape."
+    ],
+    "boundary": [
+      "Follow the visible external contour of the gallbladder sac separating it from surrounding liver and adjacent tissue."
+    ],
+    "exclusion": [
+      "Exclude surrounding liver parenchyma, separate blood vessels and bile ducts, kidney, bowel, abdominal wall and ultrasound background."
+    ],
+    "domain_identity": [
+      "Two-dimensional hepatobiliary ultrasound of the gallbladder."
+    ]
+  },
+  "policy": "Fixed before first LUS model test; same source encoders; no prompt search"
+}

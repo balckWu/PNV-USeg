@@ -1,0 +1,103 @@
+{
+  "main_model": "PNV-USeg",
+  "internal_experiment_id": "F",
+  "text_embedding_dimension": 768,
+  "text_encoder": "FremyCompany/BioLORD-2023",
+  "main_source": "main_f/current_multiseed",
+  "baselines": [
+    "TransUNet",
+    "SAM-Med2D",
+    "Iris-2D",
+    "U-Net++",
+    "U-Net",
+    "CLIPSeg",
+    "LViT",
+    "Swin-Unet"
+  ],
+  "baseline_recipe": "baselines/original_tsv3",
+  "training_seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "domains": [
+    "thyroid",
+    "TN3K",
+    "BUSI_WHU",
+    "BUS-BRA",
+    "OTU",
+    "prostate"
+  ],
+  "source_train_images": 5892,
+  "source_validation_images": 1361,
+  "source_test_images": 1767,
+  "image_size": [
+    512,
+    512
+  ],
+  "support_slots": 4,
+  "query_slots": 4,
+  "epochs_max": 150,
+  "episodes_per_epoch": 1500,
+  "gradient_accumulation": 4,
+  "early_stopping_patience": 20,
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 5e-05,
+    "weight_decay": 0.0001
+  },
+  "evaluation": {
+    "split": "test",
+    "precision": "FP32",
+    "threshold": 0.5,
+    "postprocessing": false,
+    "aggregation": "per-domain image means, then equal-weight six-domain macro mean"
+  },
+  "core_ablation": {
+    "conditions": [
+      "F",
+      "F_remove_dual",
+      "F_remove_summary",
+      "F_remove_all_text"
+    ],
+    "all_retain": [
+      "visual prototypes",
+      "visual interaction",
+      "visual channel gating"
+    ],
+    "training_seeds": [
+      42,
+      3407,
+      2026
+    ]
+  },
+  "adaptation": {
+    "organs": [
+      "left ventricle",
+      "liver",
+      "gallbladder"
+    ],
+    "support_sizes": [
+      4,
+      8,
+      16
+    ],
+    "figure_source_training_seeds": [
+      42,
+      3407,
+      2026
+    ],
+    "figure_support_draw_seed": 42,
+    "successful_optimizer_updates": 100,
+    "without_pn_source_training_seeds": [
+      42
+    ]
+  },
+  "paper_figures": [
+    "full three-seed Dice-HD95 tradeoff",
+    "purple core ablation bars",
+    "cross-organ radar profiles"
+  ],
+  "old_ten_percent_results_in_paper": false,
+  "statistical_significance_tests_requested": false
+}

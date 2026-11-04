@@ -1,0 +1,11 @@
+{
+  "seed": 2026,
+  "kind": "visual",
+  "reference_full_initial_sha256": "5f36fa32010446df79e82f1e2760b824e0b64d7ea5ef4e58a85cceb0d0550386",
+  "structural_initial_sha256": "ca8c70fedaebc1348ddd46c93aa87ed0ba6767b0aaad93cfd33102419d3e1d50",
+  "parameters": 60878344,
+  "sliced_tensors": [],
+  "all_retained_tensors_equal_to_same_seed_random_F": true,
+  "trained_weights_loaded": false,
+  "visual_runtime_reads_no_text_assets": true
+}

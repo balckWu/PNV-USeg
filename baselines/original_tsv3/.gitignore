@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Large/local-only resources at project root
+/data/
+/pretrained/
+/text_features_llm/
+
+# Formal experiment outputs
+/paper_artifacts/*
+!/paper_artifacts/.gitkeep
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
